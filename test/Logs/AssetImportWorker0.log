@@ -1,0 +1,727 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32471 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to Software Projects/RoguelikeProject/test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53950
+Successfully changed project path to: C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to Software Projects/RoguelikeProject/test
+C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to Software Projects/RoguelikeProject/test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 76.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to Software Projects/RoguelikeProject/test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.2686
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004039 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (577ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (417ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005201 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Domain Reload Profiling:
+	ReloadAssembly (948ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.1 KB). Loaded Objects now: 4546.
+Memory consumption went from 155.5 MB to 155.4 MB.
+Total: 2.859500 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.104100 ms MarkObjects: 2.355900 ms  DeleteObjects: 0.068200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 286773.021105 seconds.
+  path: Assets/Fonts/steamwheel-font/SteamwheelItalic-GOXdD SDF.asset
+  artifactKey: Guid(04a9a0f3db1b81d41a3796320b9c78de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/steamwheel-font/SteamwheelItalic-GOXdD SDF.asset using Guid(04a9a0f3db1b81d41a3796320b9c78de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d75b85489fc9ad042fb8b12efedaef5') in 0.124698 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004414 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (852ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4592.
+Memory consumption went from 158.1 MB to 158.1 MB.
+Total: 3.457100 ms (FindLiveObjects: 0.313400 ms CreateObjectMapping: 0.117500 ms MarkObjects: 2.985600 ms  DeleteObjects: 0.038600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005888 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4595.
+Memory consumption went from 158.1 MB to 158.1 MB.
+Total: 3.810100 ms (FindLiveObjects: 0.548300 ms CreateObjectMapping: 0.170100 ms MarkObjects: 3.051600 ms  DeleteObjects: 0.036900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 265.278462 seconds.
+  path: Assets/Backgrounds
+  artifactKey: Guid(38f686b7959663e4d8516b004e8dd834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds using Guid(38f686b7959663e4d8516b004e8dd834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86881bacd6793baa2bcb507c7814930f') in 0.017959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.932990 seconds.
+  path: Assets/Backgrounds/Tfhli6WY5C8e0xhkX7f6--1--b15ap.jpg
+  artifactKey: Guid(684062bd619b0cd42869e95dca89205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Tfhli6WY5C8e0xhkX7f6--1--b15ap.jpg using Guid(684062bd619b0cd42869e95dca89205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37275ba4b431e44d592829961479d49') in 0.083249 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006299 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4601.
+Memory consumption went from 158.2 MB to 158.1 MB.
+Total: 4.354400 ms (FindLiveObjects: 0.541100 ms CreateObjectMapping: 0.174600 ms MarkObjects: 3.610000 ms  DeleteObjects: 0.025500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1206.709237 seconds.
+  path: Assets/Backgrounds/cne73wngAlrZ7bxaQLOy--1--gt7ob.jpg
+  artifactKey: Guid(4c8d6f01ed76194488f86730a025a081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/cne73wngAlrZ7bxaQLOy--1--gt7ob.jpg using Guid(4c8d6f01ed76194488f86730a025a081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2a5b2e842c3fe9d106c5815c3fecca') in 0.090100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.153257 seconds.
+  path: Assets/Backgrounds/SettingsPage.jpg
+  artifactKey: Guid(4c8d6f01ed76194488f86730a025a081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/SettingsPage.jpg using Guid(4c8d6f01ed76194488f86730a025a081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44680f8c710068e4f03b210531be769') in 0.028703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 487.065025 seconds.
+  path: Assets/Backgrounds/SettingsPage.jpg
+  artifactKey: Guid(4c8d6f01ed76194488f86730a025a081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/SettingsPage.jpg using Guid(4c8d6f01ed76194488f86730a025a081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b149bd2530847883156787b91dd297c') in 0.064442 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007441 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Domain Reload Profiling:
+	ReloadAssembly (918ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (691ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (25.6 KB). Loaded Objects now: 4610.
+Memory consumption went from 158.2 MB to 158.2 MB.
+Total: 3.883100 ms (FindLiveObjects: 0.425900 ms CreateObjectMapping: 0.265700 ms MarkObjects: 3.152900 ms  DeleteObjects: 0.036400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 269.121249 seconds.
+  path: Assets/Steampunk_Items/Temp.png
+  artifactKey: Guid(c2100112b9e0a2b45ad2d9fa8406ef71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Temp.png using Guid(c2100112b9e0a2b45ad2d9fa8406ef71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35df72ecc61c6d3e2d17bfe4e04f2c3e') in 0.090215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_MV/tfsewers_tileA4_MV.png
+  artifactKey: Guid(dfcc10338ad52c94197f7f5b30e9f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_MV/tfsewers_tileA4_MV.png using Guid(dfcc10338ad52c94197f7f5b30e9f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af748432539ca6ddd7fe3b7b9c9ae1f4') in 0.041309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_VX/tfsewers_tileA4_vx.png
+  artifactKey: Guid(c9aca7bd4c2706a469b22da8311da140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_VX/tfsewers_tileA4_vx.png using Guid(c9aca7bd4c2706a469b22da8311da140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287efb11561c4222c69f93ea7e2f0ba3') in 0.031975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_MV/tfsewers_tileA1_MV.png
+  artifactKey: Guid(131409c188b93314f98282ebcb51158a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_MV/tfsewers_tileA1_MV.png using Guid(131409c188b93314f98282ebcb51158a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055ac145f0b2650a07ce32aaf174ee69') in 0.034301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_MV/tfsewers_tileA2_MV.png
+  artifactKey: Guid(2fe1c5a0635403e489abf6c2fab07b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_MV/tfsewers_tileA2_MV.png using Guid(2fe1c5a0635403e489abf6c2fab07b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca4a77ecca44c4bd9d44bc3360bc0a9') in 0.031673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_16x16/tfsewers_tileA2_1.png
+  artifactKey: Guid(1b8e4d361c5954544b820cc5de65fb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_16x16/tfsewers_tileA2_1.png using Guid(1b8e4d361c5954544b820cc5de65fb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcffb89f60e5dcf3ab0aab98afe3a479') in 0.021967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.465190 seconds.
+  path: Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_16x16/tfsewers_tileA5_1.png
+  artifactKey: Guid(73637a3e7de5fd84e97d3da7c1efad1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_16x16/tfsewers_tileA5_1.png using Guid(73637a3e7de5fd84e97d3da7c1efad1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668f7dcbbc72c142cd1491915919707b') in 0.020387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_VX/tfsewers_tileA5_vx.png
+  artifactKey: Guid(cf25e678e7ac1fa43b8cc5e66afda40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_VX/tfsewers_tileA5_vx.png using Guid(cf25e678e7ac1fa43b8cc5e66afda40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38faefba531736d4ee2ed9cc4cd4064') in 0.026420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.242172 seconds.
+  path: Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_16x16/tfsewers_tileB_1.png
+  artifactKey: Guid(db989735501f3cc49aa96857f8de181d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_16x16/tfsewers_tileB_1.png using Guid(db989735501f3cc49aa96857f8de181d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e2cae274cd18c537b14c4399b104a3') in 0.029043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_VX/tfsewers_tileB_vx.png
+  artifactKey: Guid(9047ff6dbe52f59418a570cf403ef66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tf_steampunk_complete/tf_sewers/RPGMAKER_VX/tfsewers_tileB_vx.png using Guid(9047ff6dbe52f59418a570cf403ef66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760c10c55c701dc21f221476208974a3') in 0.030563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.969989 seconds.
+  path: Assets/Steampunk HP Bar - Version 2/Steampunk HP Bar - Version 2 (F).png
+  artifactKey: Guid(eefd908c48292c542bf0a05ab47b2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk HP Bar - Version 2/Steampunk HP Bar - Version 2 (F).png using Guid(eefd908c48292c542bf0a05ab47b2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8792c6f07952317ffe21f2d0c3dafa79') in 0.022303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021365 seconds.
+  path: Assets/Steampunk HP Bar - Version 2/Steampunk HP Bar - Version 2 (C).png
+  artifactKey: Guid(d4cc7f14961fd2c4eb875f44a86eea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk HP Bar - Version 2/Steampunk HP Bar - Version 2 (C).png using Guid(d4cc7f14961fd2c4eb875f44a86eea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46990e236006065289ac1b2f9f69231') in 0.019077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040929 seconds.
+  path: Assets/Steampunk HP Bar - Version 1/Steampunk HP Bar - Version 1 (G).png
+  artifactKey: Guid(9e81edb5e016bf341bb33dce753c6e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk HP Bar - Version 1/Steampunk HP Bar - Version 1 (G).png using Guid(9e81edb5e016bf341bb33dce753c6e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7421211b451c4fc3494204a73182889c') in 0.021571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Steampunk HP Bar - Version 2/Steampunk HP Bar - Version 2 (B).png
+  artifactKey: Guid(274ff39da8568884282d08a604fa9248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk HP Bar - Version 2/Steampunk HP Bar - Version 2 (B).png using Guid(274ff39da8568884282d08a604fa9248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5575f67940dbaf786be4f246a597135d') in 0.014268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.199522 seconds.
+  path: Assets/Steampunk HP Bar - Version 1/Steampunk HP Bar - Version 1 (D).png
+  artifactKey: Guid(3329d3ecc4231724c80c1900db1aa14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk HP Bar - Version 1/Steampunk HP Bar - Version 1 (D).png using Guid(3329d3ecc4231724c80c1900db1aa14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9ba70d8c72d82a97d5e690ec9b3ba2') in 0.017279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Steampunk HP Bar - Version 1/Steampunk HP Bar - Version 1 (F).png
+  artifactKey: Guid(03a5bcc4d311e07488967ebc91993f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk HP Bar - Version 1/Steampunk HP Bar - Version 1 (F).png using Guid(03a5bcc4d311e07488967ebc91993f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7878d87aab2ec9f0132a5f8ec98598ca') in 0.016709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001733 seconds.
+  path: Assets/Steampunk HP Bar - Version 1/Steampunk HP Bar - Version 1 (A).png
+  artifactKey: Guid(567a157394ff6ad419a9728ca6e44b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk HP Bar - Version 1/Steampunk HP Bar - Version 1 (A).png using Guid(567a157394ff6ad419a9728ca6e44b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c199a8839be8df9e2799a3a439de71') in 0.018604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.274241 seconds.
+  path: Assets/Steampunk_Items/stack of cash.png
+  artifactKey: Guid(6a84d186ded3afc4d8cc1127c7e17f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/stack of cash.png using Guid(6a84d186ded3afc4d8cc1127c7e17f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757285f7020311c2e112ebb4b814ff8d') in 0.016234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.965565 seconds.
+  path: Assets/Steampunk_Items/sol core.png
+  artifactKey: Guid(dfb02433094832745949a0f0e871f3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/sol core.png using Guid(dfb02433094832745949a0f0e871f3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f6c5ad158dbdeb6c1164c8b1de9e3f') in 0.011573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033638 seconds.
+  path: Assets/Steampunk_Items/Shotgun 1.png
+  artifactKey: Guid(2c89af09001f0ce419bda92928fe0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Shotgun 1.png using Guid(2c89af09001f0ce419bda92928fe0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a28461a5243ff0ea768c28c2f4fda0') in 0.011742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.311516 seconds.
+  path: Assets/Steampunk_Items/scrap grease.png
+  artifactKey: Guid(fb6fb39d90ee9fc4693c866f2d05bc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/scrap grease.png using Guid(fb6fb39d90ee9fc4693c866f2d05bc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057b15145d53b10e23af3c4ce45f7e5b') in 0.017874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 397.582438 seconds.
+  path: Assets/Steampunk_Items/Arms3.png
+  artifactKey: Guid(d688bcd66ed429d44822a1883774c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Arms3.png using Guid(d688bcd66ed429d44822a1883774c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32352e005145c76f663cd8b5df13a608') in 0.016795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Steampunk_Items/Arrows.png
+  artifactKey: Guid(5b4defa3258874a449a40edc1f70b853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Arrows.png using Guid(5b4defa3258874a449a40edc1f70b853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1f9283a033c626cb8595a1b1f7ed1f') in 0.022004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Steampunk_Items/Assaulter.png
+  artifactKey: Guid(d5901fbb41196874d9d6a1039292496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Assaulter.png using Guid(d5901fbb41196874d9d6a1039292496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a6739268bafa942d66aedaba8b8122') in 0.016627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Steampunk_Items/Bask cash.png
+  artifactKey: Guid(67f981aaa3507dc4b82008e1c934e7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Bask cash.png using Guid(67f981aaa3507dc4b82008e1c934e7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0280408f99e0c6077a23cfd4c0a6d4a6') in 0.015849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Steampunk_Items/assault rifle.png
+  artifactKey: Guid(2f14eb328965fce40b345a5e1064aa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/assault rifle.png using Guid(2f14eb328965fce40b345a5e1064aa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8c02dc0ec1885d3bb52afcfd5b97f1') in 0.012228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.620910 seconds.
+  path: Assets/Steampunk_Items/Arms 2.png
+  artifactKey: Guid(a069872c361444e428eb555a71e6fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Arms 2.png using Guid(a069872c361444e428eb555a71e6fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c3fda07df46ff6ce2672465d9a5a54') in 0.015348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.672867 seconds.
+  path: Assets/Steampunk_Items/flamer.png
+  artifactKey: Guid(0f66f3b7fdab27144ac6a5737af0f907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/flamer.png using Guid(0f66f3b7fdab27144ac6a5737af0f907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adad00fdbbe90af8f736d072d96cafba') in 0.016920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030499 seconds.
+  path: Assets/Steampunk_Items/fusion.png
+  artifactKey: Guid(c0f45bd36a1d2b04d93b30b127883cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/fusion.png using Guid(c0f45bd36a1d2b04d93b30b127883cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88017f9bb389d1758200dcb62160d001') in 0.017889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.145738 seconds.
+  path: Assets/Steampunk_Items/Gloves 2.png
+  artifactKey: Guid(c6d1b63afaa7dcc428020414f2ea3447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Gloves 2.png using Guid(c6d1b63afaa7dcc428020414f2ea3447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dba2855422ab5037da5abfd0968dfbc') in 0.018654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Steampunk_Items/goggle3.png
+  artifactKey: Guid(f12a928ddda721a45bd28bebda7bedd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/goggle3.png using Guid(f12a928ddda721a45bd28bebda7bedd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771390971e687c8925609e8ba6f36dc7') in 0.016945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Steampunk_Items/gold Satchel.png
+  artifactKey: Guid(d9ca77f243dad2443b6913d6d559bf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/gold Satchel.png using Guid(d9ca77f243dad2443b6913d6d559bf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22718393af6125f8ff6d2bb15275024b') in 0.016550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005487 seconds.
+  path: Assets/Steampunk_Items/Gun 2.png
+  artifactKey: Guid(9d748c38d05d6814995686112ba20409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Gun 2.png using Guid(9d748c38d05d6814995686112ba20409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d61a36b6ebf1893c3bc2eea5a8af65e') in 0.014011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Steampunk_Items/Hammer.png
+  artifactKey: Guid(759dba62d884d294e9fdf7a1cf07ba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Hammer.png using Guid(759dba62d884d294e9fdf7a1cf07ba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edd5f8f96d833c5b398aaeb1e155559') in 0.018591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Steampunk_Items/Gun 3.png
+  artifactKey: Guid(a1aefbdf6394c7343bbbe4154bd74f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Gun 3.png using Guid(a1aefbdf6394c7343bbbe4154bd74f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de9213dafc665c1ba14429e717369a1') in 0.019060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Steampunk_Items/Helm3.png
+  artifactKey: Guid(a24d440f4a478a942b180683bef91e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Helm3.png using Guid(a24d440f4a478a942b180683bef91e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa49f3bb2b421dfe2607798c88057e07') in 0.020060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003703 seconds.
+  path: Assets/Steampunk_Items/Helm6.png
+  artifactKey: Guid(35fa883f755d7254bb6533acc63ff094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Helm6.png using Guid(35fa883f755d7254bb6533acc63ff094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f274584e487815925633992511698fb3') in 0.018020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.278377 seconds.
+  path: Assets/Steampunk_Items/Nickels.png
+  artifactKey: Guid(4ae65326765f626429923c0edbe8f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Nickels.png using Guid(4ae65326765f626429923c0edbe8f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa6d492a6ed6bf4a5a7a2d701acd9fe') in 0.014309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.165669 seconds.
+  path: Assets/Steampunk_Items/Potions.png
+  artifactKey: Guid(9c594be74f7ee174bbad388c2c6308ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Potions.png using Guid(9c594be74f7ee174bbad388c2c6308ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c22c568f91326e2f9e1d550b788665') in 0.012471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034304 seconds.
+  path: Assets/Steampunk_Items/Rockets.png
+  artifactKey: Guid(30752cf4c57acb74c82db7a363370fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Rockets.png using Guid(30752cf4c57acb74c82db7a363370fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0a7ea333c605cbc670e7a774cdf9f3') in 0.014573 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005392 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (745ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4638.
+Memory consumption went from 158.3 MB to 158.2 MB.
+Total: 3.408400 ms (FindLiveObjects: 0.315600 ms CreateObjectMapping: 0.127400 ms MarkObjects: 2.927000 ms  DeleteObjects: 0.037400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

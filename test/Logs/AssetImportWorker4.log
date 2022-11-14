@@ -1,0 +1,589 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32471 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to Software Projects/RoguelikeProject/test
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+53950
+Successfully changed project path to: C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to Software Projects/RoguelikeProject/test
+C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to Software Projects/RoguelikeProject/test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 73.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to Software Projects/RoguelikeProject/test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.2686
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003736 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (587ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (422ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004978 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (711ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.2 KB). Loaded Objects now: 4546.
+Memory consumption went from 155.5 MB to 155.5 MB.
+Total: 4.100400 ms (FindLiveObjects: 0.467100 ms CreateObjectMapping: 0.213000 ms MarkObjects: 3.317900 ms  DeleteObjects: 0.102000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 289424.297556 seconds.
+  path: Assets/Steampunk_Items/Armor10.png
+  artifactKey: Guid(f37dc52abba210442a9aa99c9ec5d178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Armor10.png using Guid(f37dc52abba210442a9aa99c9ec5d178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0d6fc6c4ab9956ebfd8d99e5c9a11e') in 0.090306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.171580 seconds.
+  path: Assets/Steampunk_Items/Boom.png
+  artifactKey: Guid(14d56a4be40c6ce47871a084766c55fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Boom.png using Guid(14d56a4be40c6ce47871a084766c55fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68ba011373b48dbaecb0c21cd5937d9') in 0.015809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058453 seconds.
+  path: Assets/Steampunk_Items/Cann.png
+  artifactKey: Guid(7b8c10c7b6fff274fb4fea16b6d75969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Cann.png using Guid(7b8c10c7b6fff274fb4fea16b6d75969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50020c3922b894c2d0c91f8d58f8de08') in 0.017640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.514891 seconds.
+  path: Assets/Steampunk_Items/Crossbow.png
+  artifactKey: Guid(77a860fdd3e432c40b6f57e74b9bbc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Crossbow.png using Guid(77a860fdd3e432c40b6f57e74b9bbc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00486fa7fa1e932483697780aeafb0f') in 0.018075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.487712 seconds.
+  path: Assets/Steampunk_Items/dagger.png
+  artifactKey: Guid(a78a55d3637f15d47b399e38fe797ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/dagger.png using Guid(a78a55d3637f15d47b399e38fe797ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309850ba2aec58ce4b33d99ad37bdd0b') in 0.018769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037929 seconds.
+  path: Assets/Steampunk_Items/E-cells.png
+  artifactKey: Guid(a44b9c37bf70e1848a3e38217f0f0a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/E-cells.png using Guid(a44b9c37bf70e1848a3e38217f0f0a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534555a40fbbb82c9e9f163b85a1059f') in 0.010259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.205042 seconds.
+  path: Assets/tf_steampunk_complete/tf_sewers/example.png
+  artifactKey: Guid(c13e6d7f3026fe74faab17f6d87178e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tf_steampunk_complete/tf_sewers/example.png using Guid(c13e6d7f3026fe74faab17f6d87178e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a10d208039b65e347616345dc7d9913') in 0.044585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002917 seconds.
+  path: Assets/Steampunk_Items/Fuse cell.png
+  artifactKey: Guid(84bffa7d965408b43b0bdea93ab2ef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Fuse cell.png using Guid(84bffa7d965408b43b0bdea93ab2ef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc7b8ce31b283eb071b05a95f43f231') in 0.018259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013364 seconds.
+  path: Assets/Steampunk_Items/Gattle ammo.png
+  artifactKey: Guid(42a7b17961053104f89d6cf9c8f2fec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Gattle ammo.png using Guid(42a7b17961053104f89d6cf9c8f2fec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c6cfeea03dce2c217696bdd5e15b9c') in 0.014852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.110961 seconds.
+  path: Assets/Steampunk_Items/GG.png
+  artifactKey: Guid(22f8e8f837ba1a04da1a6c0294e1dc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/GG.png using Guid(22f8e8f837ba1a04da1a6c0294e1dc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30de82067e7564afe9157f98e8b892fd') in 0.018630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Steampunk_Items/Gold.png
+  artifactKey: Guid(1f1d7e626cd14fc4c9d9e985faeddbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Gold.png using Guid(1f1d7e626cd14fc4c9d9e985faeddbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f295d4a818230b734de9bf11852d87') in 0.017166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028591 seconds.
+  path: Assets/Steampunk_Items/Grenad.png
+  artifactKey: Guid(4708ab8e15a437440a579fda6fcc4951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Grenad.png using Guid(4708ab8e15a437440a579fda6fcc4951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e9637af69004de380768cf4b6b4734') in 0.013739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Steampunk_Items/Gun5.png
+  artifactKey: Guid(2ab80bd647d55414e8926a10762c972b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Gun5.png using Guid(2ab80bd647d55414e8926a10762c972b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9538fc896913b5df897749cdb49cf0') in 0.017194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Steampunk_Items/Helm1.png
+  artifactKey: Guid(66121a9ee2b925149bc790cda030f68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Helm1.png using Guid(66121a9ee2b925149bc790cda030f68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c72715a1dafc8c33cdfbb50aea26f42') in 0.019008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Steampunk_Items/Hat.png
+  artifactKey: Guid(1651d1171c8e49841bbf81acafbf891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Hat.png using Guid(1651d1171c8e49841bbf81acafbf891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae02db537ec776a72eae16666c5271a5') in 0.019312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003641 seconds.
+  path: Assets/Steampunk_Items/Helm5.png
+  artifactKey: Guid(3260fd2a9a30a3345b11201aac606b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Helm5.png using Guid(3260fd2a9a30a3345b11201aac606b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3975461d110da893bbcccda411a64e25') in 0.020685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005465 seconds.
+  path: Assets/Steampunk_Items/helm8.png
+  artifactKey: Guid(8992c893de77149419b291011ab37e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/helm8.png using Guid(8992c893de77149419b291011ab37e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d793cd66b635e1d8ec39958c17077b') in 0.012517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.589190 seconds.
+  path: Assets/Steampunk_Items/Knifegun.png
+  artifactKey: Guid(f52848721d616474ab8a476c10fc364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Knifegun.png using Guid(f52848721d616474ab8a476c10fc364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6ddc7eaf4ec34d58cf9915fa85c7cc') in 0.012389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032073 seconds.
+  path: Assets/Steampunk_Items/L-Coil.png
+  artifactKey: Guid(044d23e4a253da64cb5d466c27599079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/L-Coil.png using Guid(044d23e4a253da64cb5d466c27599079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a14031d28fd1b6ca7a2c9d81bcbfa9') in 0.014406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.430601 seconds.
+  path: Assets/Steampunk_Items/Legs.png
+  artifactKey: Guid(9591cb44b4b8237428c635174d209a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Legs.png using Guid(9591cb44b4b8237428c635174d209a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcf5b34db82bcd9e68a64d92b4ca467') in 0.026224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028840 seconds.
+  path: Assets/Steampunk_Items/Legs3.png
+  artifactKey: Guid(0a50ebdc2018dce438e2cc17194546de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Legs3.png using Guid(0a50ebdc2018dce438e2cc17194546de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0f4ba2e11270fbf2c2e1a7317f217d') in 0.015738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016391 seconds.
+  path: Assets/Steampunk_Items/Longbow.png
+  artifactKey: Guid(9f8b04614054d8d4f8a7480f41b4bc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Longbow.png using Guid(9f8b04614054d8d4f8a7480f41b4bc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587269169220171aa3b639ffbd0764ac') in 0.013720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034079 seconds.
+  path: Assets/Steampunk_Items/Mine.png
+  artifactKey: Guid(02c038c068689fe4ca1f79c0848429db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Mine.png using Guid(02c038c068689fe4ca1f79c0848429db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11256d621b652a6663f63ae3d4e5c244') in 0.014644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027121 seconds.
+  path: Assets/Steampunk_Items/Nickels Satchel.png
+  artifactKey: Guid(da717be1a4160ff47aa71523bb039cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Nickels Satchel.png using Guid(da717be1a4160ff47aa71523bb039cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9a140c33855e5790f886c69a60b3a1') in 0.011338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101310 seconds.
+  path: Assets/Steampunk_Items/phone.png
+  artifactKey: Guid(25bf323e4afb3214a9bd6f1602a856b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/phone.png using Guid(25bf323e4afb3214a9bd6f1602a856b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c94d45542ea47ba556e8d892e694e66') in 0.017231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047788 seconds.
+  path: Assets/Steampunk_Items/Revolver.png
+  artifactKey: Guid(b662f568d7737c342b7012f581245589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/Revolver.png using Guid(b662f568d7737c342b7012f581245589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b8fc913c3c1cfe25701b1b4adc72c7') in 0.015810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026247 seconds.
+  path: Assets/Steampunk_Items/RPG.png
+  artifactKey: Guid(0c46a8de60e0deb40b91ea59d0426c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk_Items/RPG.png using Guid(0c46a8de60e0deb40b91ea59d0426c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df068d2988a0a1470054fcbd67ba8502') in 0.011599 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005633 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (758ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4558.
+Memory consumption went from 157.9 MB to 157.8 MB.
+Total: 3.329000 ms (FindLiveObjects: 0.348400 ms CreateObjectMapping: 0.201800 ms MarkObjects: 2.753200 ms  DeleteObjects: 0.024500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 288.317501 seconds.
+  path: Assets/Backgrounds/steampunk-city.jpg
+  artifactKey: Guid(37c98a6ef6317f841953efab929eb4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/steampunk-city.jpg using Guid(37c98a6ef6317f841953efab929eb4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e24a68547c6841e8b74049d3ce1e9a3') in 0.111918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.034852 seconds.
+  path: Assets/Steampunk HP Bar - Version 1
+  artifactKey: Guid(081832ef008778b41aaee21c3d97c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steampunk HP Bar - Version 1 using Guid(081832ef008778b41aaee21c3d97c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d99016b9176e66364df8416b25bdb5c') in 0.007859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.993749 seconds.
+  path: Assets/Sprites/MaleSteampunkDown.jpg
+  artifactKey: Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDown.jpg using Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1b28d475a6e46d37d136e4cdc4e649') in 0.014763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.334020 seconds.
+  path: Assets/Sprites/MaleSteampunkLeft.jpg
+  artifactKey: Guid(138d0658d1fbded4aacc6ca4461db2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkLeft.jpg using Guid(138d0658d1fbded4aacc6ca4461db2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51f80d8e66850350cf2c70f961261ed') in 0.022666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.316821 seconds.
+  path: Assets/Sprites/MaleSteampunkRight.jpg
+  artifactKey: Guid(7c1cffa01732952469654b900d551928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkRight.jpg using Guid(7c1cffa01732952469654b900d551928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fefdbad1025ec99b644b085610ef27') in 0.020540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.390833 seconds.
+  path: Assets/Sprites/MaleSteampunkUp.jpg
+  artifactKey: Guid(41547a5ae0a348e4388a15547a505fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUp.jpg using Guid(41547a5ae0a348e4388a15547a505fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f863dad87b508e36a3a437b2ba0f03c1') in 0.013813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.753061 seconds.
+  path: Assets/Sprites/MaleSteampunkDownR.jpg
+  artifactKey: Guid(bf8002783a3694340a38f931b3659b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDownR.jpg using Guid(bf8002783a3694340a38f931b3659b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9bc30e3ec6c642cb1717cb1639de4e') in 0.011174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.799395 seconds.
+  path: Assets/Sprites/MaleSteampunkDownL.jpg
+  artifactKey: Guid(97fc64cf43cf7e94db24ea482e9eb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDownL.jpg using Guid(97fc64cf43cf7e94db24ea482e9eb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c63d7409043765a0ba94ec7d0e12473') in 0.024342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.724274 seconds.
+  path: Assets/Sprites/MaleSteampunkUpR.jpg
+  artifactKey: Guid(f93d03e20812cc2478de47f4877f5d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUpR.jpg using Guid(f93d03e20812cc2478de47f4877f5d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c4c25a4d516d7bb4c3cdf4ec8ba195') in 0.021655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.988947 seconds.
+  path: Assets/Sprites/MaleSteampunkUpL.jpg
+  artifactKey: Guid(2779287c221d56944b587be65fe85cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUpL.jpg using Guid(2779287c221d56944b587be65fe85cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3605df202d190000674fa9eabf9b87') in 0.024491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 188.052922 seconds.
+  path: Assets/Sprites/MaleSteampunkDown.jpg
+  artifactKey: Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDown.jpg using Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd6b564a8b96c58538737559ce177e6') in 0.010960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/MaleSteampunkDownL.jpg
+  artifactKey: Guid(97fc64cf43cf7e94db24ea482e9eb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDownL.jpg using Guid(97fc64cf43cf7e94db24ea482e9eb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f988ddf8db8142d7a4c8430b77002aa0') in 0.011431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/MaleSteampunkLeft.jpg
+  artifactKey: Guid(138d0658d1fbded4aacc6ca4461db2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkLeft.jpg using Guid(138d0658d1fbded4aacc6ca4461db2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdad2a8f4941b93d65766a1ab294a63') in 0.013675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/MaleSteampunkRight.jpg
+  artifactKey: Guid(7c1cffa01732952469654b900d551928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkRight.jpg using Guid(7c1cffa01732952469654b900d551928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ad56fd43464c2a8d837a6f08c17278') in 0.012097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/MaleSteampunkUp.jpg
+  artifactKey: Guid(41547a5ae0a348e4388a15547a505fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUp.jpg using Guid(41547a5ae0a348e4388a15547a505fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3ea8f4a00f5a3c63bd76144c8eafe2') in 0.012426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/MaleSteampunkUpL.jpg
+  artifactKey: Guid(2779287c221d56944b587be65fe85cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUpL.jpg using Guid(2779287c221d56944b587be65fe85cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88106afce985372190d719c6ab77b83') in 0.008697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.758628 seconds.
+  path: Assets/Sprites/MaleSteampunkDown.jpg
+  artifactKey: Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDown.jpg using Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60b71472a6403a539e954cd6b6d04ce') in 0.012951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 171.239796 seconds.
+  path: Assets/Sprites/MaleSteampunkDown.jpg
+  artifactKey: Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDown.jpg using Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713114a786de206e29f31b8d4292406d') in 0.016526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.602594 seconds.
+  path: Assets/Sprites/MaleSteampunkDown.jpg
+  artifactKey: Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDown.jpg using Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974867b40dc4bebf52c7fef19972932f') in 0.017273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.834263 seconds.
+  path: Assets/Sprites/MaleSteampunkLeft.jpg
+  artifactKey: Guid(138d0658d1fbded4aacc6ca4461db2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkLeft.jpg using Guid(138d0658d1fbded4aacc6ca4461db2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5133a8b81c86373ba915cb5be92b8c') in 0.014636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140.589762 seconds.
+  path: Assets/Sprites/MaleSteampunkDownL.jpg
+  artifactKey: Guid(97fc64cf43cf7e94db24ea482e9eb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDownL.jpg using Guid(97fc64cf43cf7e94db24ea482e9eb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cbba473834fdbc5e7ae0a1bc193aee') in 0.020786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.321207 seconds.
+  path: Assets/Sprites/MaleSteampunkDownR.jpg
+  artifactKey: Guid(bf8002783a3694340a38f931b3659b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDownR.jpg using Guid(bf8002783a3694340a38f931b3659b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02bfc1ae81b95be2172a472873fc430') in 0.017853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.609039 seconds.
+  path: Assets/Sprites/MaleSteampunkRight.jpg
+  artifactKey: Guid(7c1cffa01732952469654b900d551928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkRight.jpg using Guid(7c1cffa01732952469654b900d551928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1c79f96a81aae20fb5f3342afc2cca') in 0.017985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.089133 seconds.
+  path: Assets/Sprites/MaleSteampunkUp.jpg
+  artifactKey: Guid(41547a5ae0a348e4388a15547a505fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUp.jpg using Guid(41547a5ae0a348e4388a15547a505fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fda07a2fc76b2ab1a0d92ae445893e') in 0.021945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.035896 seconds.
+  path: Assets/Sprites/MaleSteampunkUpL.jpg
+  artifactKey: Guid(2779287c221d56944b587be65fe85cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUpL.jpg using Guid(2779287c221d56944b587be65fe85cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda44ebcc84cee88a2de457111aa5a8c') in 0.016336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.387584 seconds.
+  path: Assets/Sprites/MaleSteampunkUpR.jpg
+  artifactKey: Guid(f93d03e20812cc2478de47f4877f5d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUpR.jpg using Guid(f93d03e20812cc2478de47f4877f5d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf373d68dafa897f4ef150684222070') in 0.016982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.100729 seconds.
+  path: Assets/Sprites/MaleSteampunkIdle.jpg
+  artifactKey: Guid(b2c043e15cef35f42ba2a896e6eb2318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkIdle.jpg using Guid(b2c043e15cef35f42ba2a896e6eb2318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6860e05440128dd9675e2065889194e2') in 0.012107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.423849 seconds.
+  path: Assets/Sprites/MaleSteampunkDown.jpg
+  artifactKey: Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDown.jpg using Guid(aa905c958ca5a1b49825488f5366805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f5b739806c4006662ccd13327a3e99') in 0.013875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019368 seconds.
+  path: Assets/Sprites/MaleSteampunkDownL.jpg
+  artifactKey: Guid(97fc64cf43cf7e94db24ea482e9eb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkDownL.jpg using Guid(97fc64cf43cf7e94db24ea482e9eb05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff4515b020e80729988f059441d1efd') in 0.022002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/MaleSteampunkLeft.jpg
+  artifactKey: Guid(138d0658d1fbded4aacc6ca4461db2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkLeft.jpg using Guid(138d0658d1fbded4aacc6ca4461db2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a88cf7cbe06be2067f513851344431') in 0.023839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/MaleSteampunkRight.jpg
+  artifactKey: Guid(7c1cffa01732952469654b900d551928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkRight.jpg using Guid(7c1cffa01732952469654b900d551928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665c6071a29516dda42022f172e07465') in 0.013088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites/MaleSteampunkUp.jpg
+  artifactKey: Guid(41547a5ae0a348e4388a15547a505fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUp.jpg using Guid(41547a5ae0a348e4388a15547a505fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbd68763e94181d7a122e28e7ecd62a') in 0.014230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/MaleSteampunkUpR.jpg
+  artifactKey: Guid(f93d03e20812cc2478de47f4877f5d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUpR.jpg using Guid(f93d03e20812cc2478de47f4877f5d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f454ce5474aa608137883a7c7073ce1') in 0.015503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/MaleSteampunkUpL.jpg
+  artifactKey: Guid(2779287c221d56944b587be65fe85cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MaleSteampunkUpL.jpg using Guid(2779287c221d56944b587be65fe85cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc546d6abd14b27c4f2f3203034d5c2') in 0.022325 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
