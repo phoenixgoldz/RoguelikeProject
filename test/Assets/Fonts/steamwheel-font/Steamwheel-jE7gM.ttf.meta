@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 74673b9886e18af45b4ea67ab087c3ef
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Steamwheel
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0408dfee077d0af459a4031183249cb0, type: 3}
+  - {fileID: 12800000, guid: 7961d8e30bdcffb4a8d3e02ca912b9a9, type: 3}
+  - {fileID: 12800000, guid: 62aafc3f283b28a45a280c0615175579, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
