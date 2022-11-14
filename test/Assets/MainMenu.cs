@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    bool active = true;
-
+   
     public GameObject settingsPanel;
     public GameObject menuPanel;
 
@@ -23,11 +22,12 @@ public class MainMenu : MonoBehaviour
 
     }
 
+
     public void OpenSettings()
     {
         settingsPanel.SetActive(true);
         menuPanel.SetActive(false);
-
+       
     }
 
     public void CloseSettings()

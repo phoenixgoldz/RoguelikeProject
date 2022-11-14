@@ -10,8 +10,11 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
 
     public Animator Animator { get => animator; set => animator = value; }
+
     public Transform player;
-    public Vector3 offset;
+    public Vector3 offset = new Vector3(0, 0, -1);
+
+    //public Camera cam;
 
     public void Start()
     {
@@ -23,45 +26,57 @@ public class PlayerMovement : MonoBehaviour
     {
         TakeInput();
         Move();
-       
-    transform.position = new Vector3(player.position.x + offset.x, player.position.y + offset.y, offset.z); // Camera follows the player with specified offset position
 
-}
 
-private void Move()
-{
-    transform.Translate(direction * speed * Time.deltaTime);
-    SetAnimatorMovement(direction);
-}
-
-private void TakeInput()
-{
-    direction = Vector2.zero;
-
-    if (Input.GetKey(KeyCode.W))
-    {
-        direction += Vector2.up;
     }
 
-    if (Input.GetKey(KeyCode.A))
+    private void Move()
     {
-        direction += Vector2.left;
+        transform.Translate(direction * speed * Time.deltaTime);
+
+        if (direction.x != 0 || direction.y != 0)
+        {
+            SetAnimatorMovement(direction);
+
+        }
+        else
+        {
+            animator.SetLayerWeight(1,0);
+        }
+
+
+
     }
 
-    if (Input.GetKey(KeyCode.S))
+    private void TakeInput()
     {
-        direction += Vector2.down;
+        direction = Vector2.zero;
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            direction += Vector2.up;
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            direction += Vector2.left;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            direction += Vector2.down;
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            direction += Vector2.right;
+        }
     }
 
-    if (Input.GetKey(KeyCode.D))
+    private void SetAnimatorMovement(Vector2 direction)
     {
-        direction += Vector2.right;
+        animator.SetLayerWeight(1,1);
+        Animator.SetFloat("xDir", direction.x);
+        Animator.SetFloat("yDir", direction.y);
     }
-}
-
-private void SetAnimatorMovement(Vector2 direction)
-{
-    Animator.SetFloat("xDir", direction.x);
-    Animator.SetFloat("yDir", direction.y);
-}
 }
