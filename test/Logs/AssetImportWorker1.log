@@ -15,7 +15,7 @@ C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to So
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52665
+57064
 Successfully changed project path to: C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to Software Projects/RoguelikeProject/test
 C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to Software Projects/RoguelikeProject/test
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Trevor Hicks/Desktop/Neumont College/Second Year/2nd Sprint/Intro to So
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 96.01 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 119.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -74,7 +74,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.009005 seconds.
+Registered in 0.006307 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -87,42 +87,42 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 94.65 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 128.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
+- Completed reload, in  0.651 seconds
 Domain Reload Profiling:
-	ReloadAssembly (772ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (651ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (552ms)
-			LoadAssemblies (106ms)
+		EndReloadAssembly (502ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
-				TypeCache.Initialize (125ms)
-					TypeCache.ScanAssembly (119ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (99ms)
+				TypeCache.Initialize (99ms)
+					TypeCache.ScanAssembly (97ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
+			RebuildScriptCaches (23ms)
 			SetupLoadedEditorAssemblies (332ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (72ms)
+				InitializePlatformSupportModulesInManaged (63ms)
 				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (95ms)
+				RefreshPlugins (128ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006406 seconds.
+Registered in 0.005561 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -134,49 +134,49 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 90.21 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 156.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.378 seconds
+- Completed reload, in  1.605 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1379ms)
-		BeginReloadAssembly (278ms)
+	ReloadAssembly (1606ms)
+		BeginReloadAssembly (232ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (129ms)
-		EndReloadAssembly (995ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (1242ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
-				TypeCache.Initialize (275ms)
-					TypeCache.ScanAssembly (270ms)
-				ResolveRequiredComponents (4ms)
+			SetupTypeCache (284ms)
+				TypeCache.Initialize (279ms)
+					TypeCache.ScanAssembly (273ms)
+				ResolveRequiredComponents (6ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (495ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (719ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (156ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (58.5 KB). Loaded Objects now: 4577.
-Memory consumption went from 0.63 GB to 0.63 GB.
-Total: 5.263100 ms (FindLiveObjects: 0.843400 ms CreateObjectMapping: 0.458800 ms MarkObjects: 3.732900 ms  DeleteObjects: 0.224300 ms)
+Unloading 4619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (131.2 KB). Loaded Objects now: 5080.
+Memory consumption went from 0.71 GB to 0.71 GB.
+Total: 4.594800 ms (FindLiveObjects: 0.415800 ms CreateObjectMapping: 0.179000 ms MarkObjects: 3.832800 ms  DeleteObjects: 0.166100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -190,400 +190,1648 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 422130.623059 seconds.
-  path: Assets/UI Elements Tilemap/UI_Pack__0003_steampunk_button_frame_left.asset
-  artifactKey: Guid(1440a5156ce810544b866d32b8547edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Elements Tilemap/UI_Pack__0003_steampunk_button_frame_left.asset using Guid(1440a5156ce810544b866d32b8547edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b153e94a40662fb61178725baf80ad1') in 0.078499 seconds 
+  Time since last request: 511210.906192 seconds.
+  path: Assets/Sprites/FemalePrincessSprite/fem_charectorRight.png
+  artifactKey: Guid(5ad1bb42fc03ce74e8c706416d91f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FemalePrincessSprite/fem_charectorRight.png using Guid(5ad1bb42fc03ce74e8c706416d91f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b81d76566e14469cc33dc013e2daa53') in 0.109491 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005937 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Domain Reload Profiling:
+	ReloadAssembly (802ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+				TypeCache.Initialize (181ms)
+					TypeCache.ScanAssembly (176ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4595 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (96.2 KB). Loaded Objects now: 5102.
+Memory consumption went from 0.71 GB to 0.71 GB.
+Total: 2.971700 ms (FindLiveObjects: 0.318400 ms CreateObjectMapping: 0.130500 ms MarkObjects: 2.485100 ms  DeleteObjects: 0.036900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006176 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.828 seconds
+Domain Reload Profiling:
+	ReloadAssembly (829ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+				TypeCache.Initialize (198ms)
+					TypeCache.ScanAssembly (193ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4596 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (103.2 KB). Loaded Objects now: 5117.
+Memory consumption went from 0.71 GB to 0.71 GB.
+Total: 3.302200 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.105400 ms MarkObjects: 2.864700 ms  DeleteObjects: 0.046900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004606 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (634ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+				TypeCache.Initialize (182ms)
+					TypeCache.ScanAssembly (177ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4596 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (103.3 KB). Loaded Objects now: 5132.
+Memory consumption went from 0.71 GB to 0.71 GB.
+Total: 3.335700 ms (FindLiveObjects: 0.489300 ms CreateObjectMapping: 0.138500 ms MarkObjects: 2.640100 ms  DeleteObjects: 0.066400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/UI Elements Tilemap/UI_Pack__0004_fantasy_button_round_frame_right.asset
-  artifactKey: Guid(15a693d11826a0f46ba92d9133baebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Elements Tilemap/UI_Pack__0004_fantasy_button_round_frame_right.asset using Guid(15a693d11826a0f46ba92d9133baebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b19810d748c2951090ddd533733e319') in 0.023155 seconds 
+  Time since last request: 440.524728 seconds.
+  path: Assets/PlayerMovement.cs
+  artifactKey: Guid(f3446ae3fe33b1b4bb35092e805e1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.cs using Guid(f3446ae3fe33b1b4bb35092e805e1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142a7c1810859571f5ede5c0c009dced') in 0.009462 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006219 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\2nd Sprint\Intro to Software Projects\RoguelikeProject\test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+				TypeCache.Initialize (174ms)
+					TypeCache.ScanAssembly (169ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4595 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (97.1 KB). Loaded Objects now: 5147.
+Memory consumption went from 0.71 GB to 0.71 GB.
+Total: 3.021600 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.142100 ms MarkObjects: 2.527300 ms  DeleteObjects: 0.052200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UI Elements Tilemap/UI Elements.prefab
-  artifactKey: Guid(f646988f4da13084bb7af5d299942da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Elements Tilemap/UI Elements.prefab using Guid(f646988f4da13084bb7af5d299942da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9756cb17598d3d369315535ba1d18680') in 0.138075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UI_Pack__0008_fantasy_button_square_topleft.png
-  artifactKey: Guid(fbd3d82e27b6913458e031944b4bb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0008_fantasy_button_square_topleft.png using Guid(fbd3d82e27b6913458e031944b4bb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0a5d75fc3de247c65fae7864fbf416') in 0.043887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/UI Elements Tilemap/UI_Pack__0006_fantasy_button_square_bottomleft.asset
-  artifactKey: Guid(8962a4e1b4dab2f4fb0afaba990638b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Elements Tilemap/UI_Pack__0006_fantasy_button_square_bottomleft.asset using Guid(8962a4e1b4dab2f4fb0afaba990638b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c931d14a100a3d629444ca2238cbe9') in 0.014266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UI Elements Tilemap/UI_Pack__0022_fantasy_button_square_background.asset
-  artifactKey: Guid(fd72fdbb7743ba34caba1f97bda2f2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Elements Tilemap/UI_Pack__0022_fantasy_button_square_background.asset using Guid(fd72fdbb7743ba34caba1f97bda2f2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c035ad0d347cc49641017fa23c773ec3') in 0.016345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UI_Pack__0002_steampunk_button_frame_right.png
-  artifactKey: Guid(801e835dec1980a4a859fd59cbbbf7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0002_steampunk_button_frame_right.png using Guid(801e835dec1980a4a859fd59cbbbf7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bed279ec7eff1ae2b68dc55c31005c5') in 0.030547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.944479 seconds.
-  path: Assets/UI_Pack__0015_fantasy_button_square_pressed.png
-  artifactKey: Guid(da7a339cd771f174eb3ef733bbe97323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0015_fantasy_button_square_pressed.png using Guid(da7a339cd771f174eb3ef733bbe97323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b46cb8b3794a2995a931db781c1af3') in 0.031944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.351036 seconds.
-  path: Assets/UI_Pack__0021_fantasy_button_square_background_pressed.png
-  artifactKey: Guid(09d717861e797924fac2bb8f502ffa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0021_fantasy_button_square_background_pressed.png using Guid(09d717861e797924fac2bb8f502ffa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e3a90522a402e3cf62e7d39fcba360') in 0.021430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UI_Pack__0023_fantasy_button_round_frame.png
-  artifactKey: Guid(0f723b7cef7e2f64499f5fef4f0b986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0023_fantasy_button_round_frame.png using Guid(0f723b7cef7e2f64499f5fef4f0b986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab7b466054386d36991d5b3d9e1b1b3') in 0.016738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.272050 seconds.
-  path: Assets/UI_Pack__0027_steampunk_button_background.png
-  artifactKey: Guid(8ef84b126edd7404bb1c1d53e503172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0027_steampunk_button_background.png using Guid(8ef84b126edd7404bb1c1d53e503172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4343a80fb252a39d3df124ca720bc2c') in 0.030599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.185764 seconds.
-  path: Assets/UI_Pack__0033_fantasy_button_round_accept.png
-  artifactKey: Guid(270497117099ec342b030df86e471eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0033_fantasy_button_round_accept.png using Guid(270497117099ec342b030df86e471eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f86d1e3d70d2492f95825b7b629d60') in 0.017983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UI_Pack__0035_fantasy_corner_lower_blank.png
-  artifactKey: Guid(f56a7f849d6771f4db1991fe40d13bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0035_fantasy_corner_lower_blank.png using Guid(f56a7f849d6771f4db1991fe40d13bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e436bd72ebe08a1e27a2e69dbe89d4') in 0.021682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.409904 seconds.
-  path: Assets/UI_Pack__0039_fantasy_nub.png
-  artifactKey: Guid(25dc346853654614e844fb0ba8c48540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0039_fantasy_nub.png using Guid(25dc346853654614e844fb0ba8c48540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343e8a93cbdd1f0c67475ae34adcc6fd') in 0.029804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.089386 seconds.
-  path: Assets/UI_Pack__0045_pipe_iron.png
-  artifactKey: Guid(422e6979c4e00284fbe79b805f429a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0045_pipe_iron.png using Guid(422e6979c4e00284fbe79b805f429a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0a397e01cefe9914b90427694eeb55') in 0.027368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.174537 seconds.
-  path: Assets/UI_Pack__0051_steampunk_panel_bracket_horizborder.png
-  artifactKey: Guid(96ad129b84be97544b6eb9416f9d5a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0051_steampunk_panel_bracket_horizborder.png using Guid(96ad129b84be97544b6eb9416f9d5a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c7ecd22daac4b1e720176bbec11758') in 0.019519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.086647 seconds.
-  path: Assets/UI_Pack__0057_steampunk_button_accept_iron.png
-  artifactKey: Guid(57e765e2120268d45b947959700b3c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0057_steampunk_button_accept_iron.png using Guid(57e765e2120268d45b947959700b3c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d53f9aa2b74226d8f31a304886b8c5') in 0.030324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.461689 seconds.
-  path: Assets/UI_Pack__0063_steampunk_button_blank.png
-  artifactKey: Guid(1b07b0e7babd829489baa31e592a86a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0063_steampunk_button_blank.png using Guid(1b07b0e7babd829489baa31e592a86a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b8987ffcdcb139469db0c72b16a620') in 0.024894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.126379 seconds.
-  path: Assets/UI_Pack__0069_gold_clasp.png
-  artifactKey: Guid(bc76420737262c643ac3b1fa4c4da4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0069_gold_clasp.png using Guid(bc76420737262c643ac3b1fa4c4da4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5822c5981b6abd27e6a79f59100f493') in 0.018317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.398902 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@3x.png
-  artifactKey: Guid(ec8214d7d416a8746bb342b71e8e4269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@3x.png using Guid(ec8214d7d416a8746bb342b71e8e4269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d45d742d8fa0316563f8389f5d9dace') in 0.028385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/xlink.png
-  artifactKey: Guid(556a2f3b046024d4c9621c1b4be5f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/xlink.png using Guid(556a2f3b046024d4c9621c1b4be5f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1f3e9b009e7323f57f1101839fccbc') in 0.017298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.830754 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Slider@2x.png
-  artifactKey: Guid(7f64a6e091143c0458506b559165cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Slider@2x.png using Guid(7f64a6e091143c0458506b559165cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f3575af7b3657470cb6053df48bb38') in 0.027605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.246234 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Brush@4x.png
-  artifactKey: Guid(48464cd53bb3c604f999e7d3f15e8d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Brush@4x.png using Guid(48464cd53bb3c604f999e7d3f15e8d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cdf9ade1a372ba49232f95c2e69c71') in 0.017373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.390014 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush@3x.png
-  artifactKey: Guid(3279d541bf75c624cbdd7179eb5559a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush@3x.png using Guid(3279d541bf75c624cbdd7179eb5559a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d5a3ad2a867505d52de881fb7298d1') in 0.015351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.373368 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Brush.png
-  artifactKey: Guid(bf734b7184825b040837040cb93a8dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Brush.png using Guid(bf734b7184825b040837040cb93a8dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31eeb98a30950e31de5b0161ee418396') in 0.016841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.248571 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/WarningIcon_Small.png
-  artifactKey: Guid(04d9cdfc54a6a485d83a3d78a3139505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/WarningIcon_Small.png using Guid(04d9cdfc54a6a485d83a3d78a3139505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addba3916bb10d47cba138af1e16a7be') in 0.019546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.225905 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Tool@3x.png
-  artifactKey: Guid(ec23e33668eecff4aaec16f735dcc204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Tool@3x.png using Guid(ec23e33668eecff4aaec16f735dcc204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a6a6caa9f7292b01c12cd0655ce076') in 0.025080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.240232 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool@2x.png
-  artifactKey: Guid(ef9977ed07c438845a52c577f4ffcc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool@2x.png using Guid(ef9977ed07c438845a52c577f4ffcc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e4bd67ad7ad4882084fe65dff66924') in 0.017780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.175749 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Hidded@4x.png
-  artifactKey: Guid(f469f8253737d534ca7809ae6f0d2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Hidded@4x.png using Guid(f469f8253737d534ca7809ae6f0d2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb1c6e306a4c10d329368db98e62a23') in 0.020000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.182851 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Hidded.png
-  artifactKey: Guid(a20f7223e2252fc4d813fc92d0f3a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Visibility_Hidded.png using Guid(a20f7223e2252fc4d813fc92d0f3a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c914da6ad4ec8cce360fb66f223080') in 0.020627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047058 seconds.
-  path: Assets/UI_Pack__0103_steampunk_corner_rust.png
-  artifactKey: Guid(06880551b6f4c9648a060686d8a9ad0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0103_steampunk_corner_rust.png using Guid(06880551b6f4c9648a060686d8a9ad0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecaa2719746ca46d20b9e09401304b5') in 0.018217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.129849 seconds.
-  path: Assets/UI_Pack__0100_steampunk_rust_side_1.png
-  artifactKey: Guid(f18e29bb1c06c6d42995d8f1dc9545ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0100_steampunk_rust_side_1.png using Guid(f18e29bb1c06c6d42995d8f1dc9545ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bcda5e4bbb98d7e77d328901fac27a') in 0.025424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.074198 seconds.
-  path: Assets/UI_Pack__0097_steampunk_bolt_2.png
-  artifactKey: Guid(866905e960984e447b2d0d48b2fdc8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0097_steampunk_bolt_2.png using Guid(866905e960984e447b2d0d48b2fdc8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a56e89913c2d55751bd48db2efba6b1') in 0.027156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.320380 seconds.
-  path: Assets/UI_Pack__0094_steampunk_corner_solo.png
-  artifactKey: Guid(e49094d70b8beaa42b067f7d8b4e72c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0094_steampunk_corner_solo.png using Guid(e49094d70b8beaa42b067f7d8b4e72c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4250c02a3de6cf799e932b4b48b92b') in 0.019634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.001165 seconds.
-  path: Assets/UI_Pack__0091_steampunk_corner_iron_solo.png
-  artifactKey: Guid(7211582f0510e8742afa3780a2a569f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0091_steampunk_corner_iron_solo.png using Guid(7211582f0510e8742afa3780a2a569f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c535d23ea5702168c1c124b3e93c213') in 0.021209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.450592 seconds.
-  path: Assets/UI_Pack__0088_torch_blue.png
-  artifactKey: Guid(2c19b83e698dacd46ad9b2d53e311fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0088_torch_blue.png using Guid(2c19b83e698dacd46ad9b2d53e311fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a61300f65c3e118063448e376445d6') in 0.016973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.506622 seconds.
-  path: Assets/UI_Pack__0085_steampunk_button_accept_pressed.png
-  artifactKey: Guid(1bd3b1c7f4cd8404fbea0c501ece7ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0085_steampunk_button_accept_pressed.png using Guid(1bd3b1c7f4cd8404fbea0c501ece7ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8518908f9db9e9d2742f4009d54ce851') in 0.017721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.519682 seconds.
-  path: Assets/UI_Pack__0082_steampunk_button_accept_highlight.png
-  artifactKey: Guid(5a9f2829675f71342a351561108a1b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0082_steampunk_button_accept_highlight.png using Guid(5a9f2829675f71342a351561108a1b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cc012bc199141939b030cc6d33a6b6') in 0.019057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.542182 seconds.
-  path: Assets/UI_Pack__0079_steampunk_button_cancel_noclasp.png
-  artifactKey: Guid(3fba140a199ea1d4fb920b1451b93aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0079_steampunk_button_cancel_noclasp.png using Guid(3fba140a199ea1d4fb920b1451b93aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b6e51542b94e3e42e9a64287ed6432') in 0.020108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.543246 seconds.
-  path: Assets/UI_Pack__0076_steampunk_button_cancel_highlight.png
-  artifactKey: Guid(ef85e058de459a64799537b04f52e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI_Pack__0076_steampunk_button_cancel_highlight.png using Guid(ef85e058de459a64799537b04f52e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1d076d9e946cedaf52e7ddbfb1f2f4') in 0.020827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.919720 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_MV/tileset/tfsteampunk_tileB_dungeon.png
-  artifactKey: Guid(ea20623130a2a9c43b62013044a97d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_MV/tileset/tfsteampunk_tileB_dungeon.png using Guid(ea20623130a2a9c43b62013044a97d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d7af907635d663cb8fef57f50891b6') in 0.055656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_MV/tileset/tfsteampunk_tileB_int2.png
-  artifactKey: Guid(7d8d724424663914e96666137098c4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_MV/tileset/tfsteampunk_tileB_int2.png using Guid(7d8d724424663914e96666137098c4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1895fc19f12f7e14aa795dac36a72564') in 0.061853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/tileset/tfsteampunk_tileB_train1.png
-  artifactKey: Guid(232a31d781101c64bbd40c5f5fe361b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/tileset/tfsteampunk_tileB_train1.png using Guid(232a31d781101c64bbd40c5f5fe361b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e5edc757b9a7cb55aec8e1d36816cf') in 0.038599 seconds 
+  Time since last request: 202.693128 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_36.asset
+  artifactKey: Guid(950e299368750ee4180f93715a883394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_36.asset using Guid(950e299368750ee4180f93715a883394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ea3995c0792758867593fda9b30739') in 0.047114 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000052 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/tileset/tfsteampunk_tileB_int2.png
-  artifactKey: Guid(209bf98c409f744468e71806ac8ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/tileset/tfsteampunk_tileB_int2.png using Guid(209bf98c409f744468e71806ac8ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415cbb5bc90468d692b5e4026473ed1b') in 0.036592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/tileset/tfsteampunk_tileB_int1.png
-  artifactKey: Guid(34ae16e8e50a58f47973f543ddca8b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/tileset/tfsteampunk_tileB_int1.png using Guid(34ae16e8e50a58f47973f543ddca8b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419ac185a6949941b7cf4f46eea33373') in 0.031179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_MV/charset/!animchar_steampunk2.png
-  artifactKey: Guid(05fcf0d3fa7b6214394090cde036744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_MV/charset/!animchar_steampunk2.png using Guid(05fcf0d3fa7b6214394090cde036744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab13a96bc844849d8852d6228d71b1de') in 0.079593 seconds 
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_38.asset
+  artifactKey: Guid(4d235102095e54748878d5402876f455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_38.asset using Guid(4d235102095e54748878d5402876f455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b103c8e245fa385843be1f67c6eaf21e') in 0.013378 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/charset/!doors1.png
-  artifactKey: Guid(018233ffef1af8a4a85a294bd86d5526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/charset/!doors1.png using Guid(018233ffef1af8a4a85a294bd86d5526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7450c0371e8ce0e28d023256f958570b') in 0.045187 seconds 
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_41.asset
+  artifactKey: Guid(885e8618690d434408550395988d8053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_41.asset using Guid(885e8618690d434408550395988d8053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2831c1b451d2cc12ee0fbafd24986e3e') in 0.013146 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_16x16/charset/!doors1.png
-  artifactKey: Guid(464daa0533f810e419f4e0970f453b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_16x16/charset/!doors1.png using Guid(464daa0533f810e419f4e0970f453b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560c0ee9b87cb8e279b5f215a77f3c13') in 0.034855 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_37.asset
+  artifactKey: Guid(9825ccc9fd8601e45b3344a19be09f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_37.asset using Guid(9825ccc9fd8601e45b3344a19be09f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93e3fbb97269bcc8372630874183715') in 0.010211 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_16x16/tileset/tfsteampunk_tileB_int1.png
-  artifactKey: Guid(7707bb60107fb0e41bc75989631f9563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_16x16/tileset/tfsteampunk_tileB_int1.png using Guid(7707bb60107fb0e41bc75989631f9563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015e9803b60631ff46d91126a4166d53') in 0.043626 seconds 
+  Time since last request: 0.239941 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_44.asset
+  artifactKey: Guid(d83fa44343b5c7a4a834dd68aa9631d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_44.asset using Guid(d83fa44343b5c7a4a834dd68aa9631d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe8741392654c4dcfa71bba0a3d8aec') in 0.013505 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.025971 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/charset/!doors2.png
-  artifactKey: Guid(0808500203eec7445a1edaf747b3336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/charset/!doors2.png using Guid(0808500203eec7445a1edaf747b3336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a5ff2a264fc28ea3aeced01ecc969c') in 0.031267 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_48.asset
+  artifactKey: Guid(64a4cf6d31197f843b692dabb8c3b315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_48.asset using Guid(64a4cf6d31197f843b692dabb8c3b315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c0bf8b83989d98cfcd64fdaf569b26') in 0.018479 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.126372 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_16x16/charset/!traindoors1.png
-  artifactKey: Guid(0f06b501663fde6408234d7e13a9ac48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_16x16/charset/!traindoors1.png using Guid(0f06b501663fde6408234d7e13a9ac48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced7752882d6842345f7310f7577e674') in 0.024811 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_49.asset
+  artifactKey: Guid(2007dbca51d9f18438a78a044d6bc9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_49.asset using Guid(2007dbca51d9f18438a78a044d6bc9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77d2fb40ae97881ac15bfa6ff6d405f') in 0.014348 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.406532 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/charset/!traindoors2.png
-  artifactKey: Guid(dc586988331b3a14391a1f42bef2f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/charset/!traindoors2.png using Guid(dc586988331b3a14391a1f42bef2f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57100fdb6a85a11f54f22d821f00ce6d') in 0.021198 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_46.asset
+  artifactKey: Guid(2beeadbefe6727a4692d25a9040361b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_46.asset using Guid(2beeadbefe6727a4692d25a9040361b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0710a583e8693f0fd06278bb956e1c32') in 0.010600 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.122187 seconds.
-  path: Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/charset/!traindoors3.png
-  artifactKey: Guid(be01aaaf586cea749ae66d2919d70f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tf_steampunk_complete/tf_steampunk/RPGMAKER_VX/charset/!traindoors3.png using Guid(be01aaaf586cea749ae66d2919d70f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25a7ee727ce8059012ef41f57a5f247') in 0.030440 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_47.asset
+  artifactKey: Guid(8f70de0369d4695478b78a7ac8bb5e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_47.asset using Guid(8f70de0369d4695478b78a7ac8bb5e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed3d6aa3c4916a57423febe38f885e7') in 0.009043 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.098486 seconds.
-  path: Assets/Steampunk_Items/Ammo 3.png
-  artifactKey: Guid(7ee9c828ff22f63418190edb9f8feb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Steampunk_Items/Ammo 3.png using Guid(7ee9c828ff22f63418190edb9f8feb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7954733fc3e68bfe0f0813a4f72c93e5') in 0.027662 seconds 
+  Time since last request: 0.847554 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_53.asset
+  artifactKey: Guid(26e4de4fff07aec40b6db84adaaa2da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_53.asset using Guid(26e4de4fff07aec40b6db84adaaa2da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01634b00b5d02ccf4675ee2a18045e8d') in 0.012021 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.256516 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary.png
-  artifactKey: Guid(3024cb66f112f47f599953fe508d632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary.png using Guid(3024cb66f112f47f599953fe508d632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ea74414406bde2a295e70656556dae') in 0.015685 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_57.asset
+  artifactKey: Guid(a7ea5fb55eceef847ac3742f48e310fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_57.asset using Guid(a7ea5fb55eceef847ac3742f48e310fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94278af2dfea4b23b50c46bc48da9d5') in 0.012601 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.105167 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary On@64.png
-  artifactKey: Guid(19370790a791d4fc99ee3830251366f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary On@64.png using Guid(19370790a791d4fc99ee3830251366f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586a1b298f036de9af89496d6046d3df') in 0.019914 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_60.asset
+  artifactKey: Guid(4222042aff590a4458c5dd268a43ceba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_60.asset using Guid(4222042aff590a4458c5dd268a43ceba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b90911fdfca970b45feeeaf9cc0947b') in 0.011191 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.132652 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary@32.png
-  artifactKey: Guid(5c6d7a5595d5b4713980d6a92eb6fced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary@32.png using Guid(5c6d7a5595d5b4713980d6a92eb6fced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb97229b297eab093d8c589c000bdc1c') in 0.019751 seconds 
+  Time since last request: 0.000064 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_58.asset
+  artifactKey: Guid(a4f6736579a18c24b9f8ccf310ca2109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_58.asset using Guid(a4f6736579a18c24b9f8ccf310ca2109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2357123e7a8c77a863ce25761f2472') in 0.012524 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.128687 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary@256.png
-  artifactKey: Guid(b6c49e41a57e648e9a16f44ce4b8d9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibrary@256.png using Guid(b6c49e41a57e648e9a16f44ce4b8d9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b9bc7d825a244b6dd0eb429925292f') in 0.037980 seconds 
+  Time since last request: 0.844181 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_62.asset
+  artifactKey: Guid(5ea3043ee420377409aaa47324f5073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_62.asset using Guid(5ea3043ee420377409aaa47324f5073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1c2028dc0bcf6c5c3ec28a64ddb591') in 0.011886 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.337618 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryManager On@32.png
-  artifactKey: Guid(4a3c64ec8ad964011aa28fb633e9b153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryManager On@32.png using Guid(4a3c64ec8ad964011aa28fb633e9b153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202bd6643f482eb76e69cca9e6295e24') in 0.021255 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_67.asset
+  artifactKey: Guid(03dbdf75ec93cf54fa5420106292f9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_67.asset using Guid(03dbdf75ec93cf54fa5420106292f9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e596c942103c72fc4893c9b3a0da8d9c') in 0.011752 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.418161 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryManager On@256.png
-  artifactKey: Guid(093d252d1d41041c8b4df35c330dcc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryManager On@256.png using Guid(093d252d1d41041c8b4df35c330dcc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d9739ce9245eea82a1a5c877d18266') in 0.023589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.318253 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryVar On@32.png
-  artifactKey: Guid(2a8bf227319d4421f91d9375e3ae59bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteLibraryVar On@32.png using Guid(2a8bf227319d4421f91d9375e3ae59bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffef7245690b4de1ffdcf184d605a65b') in 0.021166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.202342 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin@128.png
-  artifactKey: Guid(5caee0ba7342b4b2cacdbe0e6030c7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.SpriteSkin@128.png using Guid(5caee0ba7342b4b2cacdbe0e6030c7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d106c899de063cb31b23b49d3cafce') in 0.039427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.889203 seconds.
-  path: Assets/Steampunk_Items/Armor7.png
-  artifactKey: Guid(94f54ca0e6401914fb17902459e3e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Steampunk_Items/Armor7.png using Guid(94f54ca0e6401914fb17902459e3e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e55d4dde9bc8a27b3b1136e916a95bc') in 0.037231 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_69.asset
+  artifactKey: Guid(374fb54325922a445b8847661a1b3c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_69.asset using Guid(374fb54325922a445b8847661a1b3c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc584f073478b81af03a66b7c8dd002') in 0.015665 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000102 seconds.
-  path: Assets/Steampunk_Items/Arms3.png
-  artifactKey: Guid(d688bcd66ed429d44822a1883774c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Steampunk_Items/Arms3.png using Guid(d688bcd66ed429d44822a1883774c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2adfea889b645a311681ba3e69ea7cc') in 0.019191 seconds 
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_65.asset
+  artifactKey: Guid(6620d3d4a4c2aea4a9bc263a2c66111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_65.asset using Guid(6620d3d4a4c2aea4a9bc263a2c66111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d9f45e52a7361ae27eeab547e3d459') in 0.028577 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.999514 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/d_Animation.SpriteLibraryManager.png
-  artifactKey: Guid(9ca415e19264343fda4eee42c9a3452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/d_Animation.SpriteLibraryManager.png using Guid(9ca415e19264343fda4eee42c9a3452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09fbf295e3f789af27c130baf9565d8') in 0.030211 seconds 
+  Time since last request: 0.000054 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_64.asset
+  artifactKey: Guid(c3b168b74154de240b55b00a0b719096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_64.asset using Guid(c3b168b74154de240b55b00a0b719096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a3f55dc9f95b401e9eeefa8e32dece') in 0.015263 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.608509 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Dark/d_Edit_Geometry@2x.png
-  artifactKey: Guid(2d2e8c77fdf4f364c83224444f65fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Dark/d_Edit_Geometry@2x.png using Guid(2d2e8c77fdf4f364c83224444f65fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2265145950b9b03385a78585ad606b95') in 0.030690 seconds 
+  Time since last request: 0.689953 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_71.asset
+  artifactKey: Guid(cbe8fd67a56f9594bbf74794d82c13d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_71.asset using Guid(cbe8fd67a56f9594bbf74794d82c13d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f252738b06ef4a93cd7c45b82a18ff90') in 0.012634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_77.asset
+  artifactKey: Guid(43c6786d95124ff4598103a22888cb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_77.asset using Guid(43c6786d95124ff4598103a22888cb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3d4f2d490af2f7b1e3f851e324b2a3') in 0.012872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_78.asset
+  artifactKey: Guid(c7cd4b076fcb0f740965eea76db52d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_78.asset using Guid(c7cd4b076fcb0f740965eea76db52d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b688b014510b4b43eb6300209bbe47e2') in 0.012096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_72.asset
+  artifactKey: Guid(46eb1b36d65615740b07899e819dcc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_72.asset using Guid(46eb1b36d65615740b07899e819dcc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc36de84baa288565b266fab464af848') in 0.011617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_73.asset
+  artifactKey: Guid(f89d1a8b582301a47bde4738ac0d4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_73.asset using Guid(f89d1a8b582301a47bde4738ac0d4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb60579d611ceba64f9b262977a54c6a') in 0.010560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.630453 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_80.asset
+  artifactKey: Guid(0eee15a3087aa274caa8efe78a66def5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_80.asset using Guid(0eee15a3087aa274caa8efe78a66def5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e290c9e7f3991b41c53050fc6812873') in 0.011320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_87.asset
+  artifactKey: Guid(d2176fa0d87eeef4cb7a62a271395e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_87.asset using Guid(d2176fa0d87eeef4cb7a62a271395e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00eb635645cef029270fd1170fd7081') in 0.012493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_86.asset
+  artifactKey: Guid(88266fcf5708f5249b9f650762877566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_86.asset using Guid(88266fcf5708f5249b9f650762877566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4651268627e889a7a550fe1f7afc584') in 0.012351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002998 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_83.asset
+  artifactKey: Guid(f16088c62f924cb46bb2eef20825563e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_83.asset using Guid(f16088c62f924cb46bb2eef20825563e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9b340ae26a20c9a275e26d8f8b2692') in 0.013036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_85.asset
+  artifactKey: Guid(9d67998719a5e34449f7233e0e0707ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_85.asset using Guid(9d67998719a5e34449f7233e0e0707ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdd148f5899db55cf2439e6c66656cb') in 0.011201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.663393 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_90.asset
+  artifactKey: Guid(d230b900f474daa4ca3db1de7916acaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_90.asset using Guid(d230b900f474daa4ca3db1de7916acaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2997ba3f07fb37aa9f7241555bf434') in 0.022776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_96.asset
+  artifactKey: Guid(b57489a2b90a4ab4b86d2d97e747d607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_96.asset using Guid(b57489a2b90a4ab4b86d2d97e747d607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6fe77af43ca6fa632438999510e686') in 0.015076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_94.asset
+  artifactKey: Guid(f923e46137d975f4d941f3a32258ae97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_94.asset using Guid(f923e46137d975f4d941f3a32258ae97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7eb2f729862393e6ad904f1be843b2') in 0.012226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.559128 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_99.asset
+  artifactKey: Guid(7034061106911ef458566df7e915e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_99.asset using Guid(7034061106911ef458566df7e915e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f68e1002153ab4b414b10cc4f6a8a15') in 0.013130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_101.asset
+  artifactKey: Guid(3395523915f636143b1fe32d37b7ecaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_101.asset using Guid(3395523915f636143b1fe32d37b7ecaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82dae61bc75539b31a3a7e503ca6aca3') in 0.014762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.942280 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_108.asset
+  artifactKey: Guid(9b5145a2335188d4b81155ed9111d6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_108.asset using Guid(9b5145a2335188d4b81155ed9111d6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db6d27b9a24641865438e187c879366') in 0.018852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_112.asset
+  artifactKey: Guid(681e6b7f9568f3e43b9964e87284adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_112.asset using Guid(681e6b7f9568f3e43b9964e87284adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c8aba2939f67dd59811bf6a8b04c81') in 0.013040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.476650 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_117.asset
+  artifactKey: Guid(86c7d8937f601c6428c769db161d90be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_117.asset using Guid(86c7d8937f601c6428c769db161d90be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508a02c33baf291a668e284d16ce954d') in 0.014506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_120.asset
+  artifactKey: Guid(19ef7effb976ca54389bf0a461a9dda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_120.asset using Guid(19ef7effb976ca54389bf0a461a9dda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6d51e142a4884669e9fe8c75f983ae') in 0.013608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.480082 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_126.asset
+  artifactKey: Guid(073fcd0d40084ee4793cdc3bed1100fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_126.asset using Guid(073fcd0d40084ee4793cdc3bed1100fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e30f81348a02f4479ed1a9e608c411a') in 0.013444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_130.asset
+  artifactKey: Guid(77441f475afb9c94d9c4c7c12f13c899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_130.asset using Guid(77441f475afb9c94d9c4c7c12f13c899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ceffea9c9839d6569600b80f0a83f6') in 0.014866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.602844 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_135.asset
+  artifactKey: Guid(581b1fa447f5d1d409d93221f9ce955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_135.asset using Guid(581b1fa447f5d1d409d93221f9ce955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49f3ebb117cc29d92ec751496a880a0') in 0.013104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_140.asset
+  artifactKey: Guid(a94938ddb2fb76c41bb2c693980f5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_140.asset using Guid(a94938ddb2fb76c41bb2c693980f5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c8aeb1210977a6f2339a985647b9b3') in 0.013940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.529474 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_144.asset
+  artifactKey: Guid(61b6dc5f7b2ef6b4b97b1787173a045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_144.asset using Guid(61b6dc5f7b2ef6b4b97b1787173a045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ed11d119bfb36079b24789b828946c') in 0.023328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_148.asset
+  artifactKey: Guid(fbd7f247496effd4996df06489785452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_148.asset using Guid(fbd7f247496effd4996df06489785452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65511a1f40258b190a72535a635e2f5') in 0.012255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.653908 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_153.asset
+  artifactKey: Guid(4b27292fed922ac4eb6604a406103ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_153.asset using Guid(4b27292fed922ac4eb6604a406103ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b097edaa6eb86929708605b5bc89b413') in 0.013776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_155.asset
+  artifactKey: Guid(afd00e8608264654ab0afc40da53776d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_155.asset using Guid(afd00e8608264654ab0afc40da53776d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9fe4bb9252a64b9cb531cbab8bd637') in 0.025060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.373694 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_162.asset
+  artifactKey: Guid(b72ccdede3c8ab24cb21ee094ac96c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_162.asset using Guid(b72ccdede3c8ab24cb21ee094ac96c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9141e09cbdd667ed1e053930c50e0a4') in 0.012865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_165.asset
+  artifactKey: Guid(a3721578445f20e40869aa6af52decfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_165.asset using Guid(a3721578445f20e40869aa6af52decfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770df63855ff6afc113c344bb1701139') in 0.014343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_167.asset
+  artifactKey: Guid(63f5b7181d103454ba0e8484e65dec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_167.asset using Guid(63f5b7181d103454ba0e8484e65dec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0a6f2b99f0abf7a6fc51a7ed22afac') in 0.010274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.463531 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_171.asset
+  artifactKey: Guid(5ca20c7883e5df349b8b7c689a10072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_171.asset using Guid(5ca20c7883e5df349b8b7c689a10072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ecf8392ed6e5d807a7aa96768c6249') in 0.025366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_173.asset
+  artifactKey: Guid(130a61a959cd2b8439b76d46f5fa488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_173.asset using Guid(130a61a959cd2b8439b76d46f5fa488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0088368ed424d685fb98e27b5e433981') in 0.013314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.837417 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_180.asset
+  artifactKey: Guid(68d1e5ad6f9fe6a4db0a43aa99dca35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_180.asset using Guid(68d1e5ad6f9fe6a4db0a43aa99dca35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37bafcff7e077ce5ef1797187c7e63e') in 0.013024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_183.asset
+  artifactKey: Guid(cbd4ee1ef960b6f4e83dbcdab28889ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_183.asset using Guid(cbd4ee1ef960b6f4e83dbcdab28889ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb57d75516e24718a77caeb19d36d594') in 0.024402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.672855 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_189.asset
+  artifactKey: Guid(60370308945268847849c076d5e3c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_189.asset using Guid(60370308945268847849c076d5e3c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064577e4e5c98575df4327653a812c62') in 0.024996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_193.asset
+  artifactKey: Guid(6d693599518cef441aed155e4ca3354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_193.asset using Guid(6d693599518cef441aed155e4ca3354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83910aa9f30c102210e1ef31024d7c7c') in 0.013985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.038776 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_198.asset
+  artifactKey: Guid(78c749f30be5c6841a4d60a28e13d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_198.asset using Guid(78c749f30be5c6841a4d60a28e13d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6f2ca46206c0da623d9ed34137900d') in 0.013130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_203.asset
+  artifactKey: Guid(e670e2c4c0307824e9c03f496406102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_203.asset using Guid(e670e2c4c0307824e9c03f496406102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d54a9a21e7d847f8d958a2090dee6f2') in 0.015671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.774463 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_207.asset
+  artifactKey: Guid(b9db429d22dd9dd4baf91a25d3b0b913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_207.asset using Guid(b9db429d22dd9dd4baf91a25d3b0b913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1db17c737d3c4d572c139304897412') in 0.011613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_212.asset
+  artifactKey: Guid(66380a0d8afaac94ba5beee958b806cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_212.asset using Guid(66380a0d8afaac94ba5beee958b806cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53125e25ffa23c3c5f83a63df79e4ef') in 0.015471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.271076 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_216.asset
+  artifactKey: Guid(462bfe507972c0140b39a317f80fd745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_216.asset using Guid(462bfe507972c0140b39a317f80fd745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbb42a3bb76c8c2b6a18a7b36b05f26') in 0.012370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_222.asset
+  artifactKey: Guid(984d357a87c97b9468e0ce9c47c39725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_222.asset using Guid(984d357a87c97b9468e0ce9c47c39725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66000a45d1660034eb167ee9a8d65807') in 0.010914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_220.asset
+  artifactKey: Guid(7ec1224132ff130468c828ae2427b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_220.asset using Guid(7ec1224132ff130468c828ae2427b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c5d01c2d16752a2cc1df424c5792ed') in 0.013178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.580996 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_225.asset
+  artifactKey: Guid(dbc866b3f608d0449b12688da5397ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_225.asset using Guid(dbc866b3f608d0449b12688da5397ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a50c3d6fe639d0313db718d793a6d88') in 0.013242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_228.asset
+  artifactKey: Guid(8b8068cf917fd1045a96b854bf6b042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_228.asset using Guid(8b8068cf917fd1045a96b854bf6b042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2088b00fcf720713defb2bc5749a39a0') in 0.016227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.431913 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_234.asset
+  artifactKey: Guid(230c7423f897ea840b205c06df5e5988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_234.asset using Guid(230c7423f897ea840b205c06df5e5988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dc72cfcd307ec064d8c902413b396f') in 0.026485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_238.asset
+  artifactKey: Guid(eb643192ab6ede34a93e9db8d4b257df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_238.asset using Guid(eb643192ab6ede34a93e9db8d4b257df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d21c072f1fc408cc87cce8905fc4001') in 0.019420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.213763 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_243.asset
+  artifactKey: Guid(f20b23b4b8275db459864139d524661f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_243.asset using Guid(f20b23b4b8275db459864139d524661f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6120514a977f5ec37f52c8a6577a89d') in 0.022990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_249.asset
+  artifactKey: Guid(fcabf8ed6775ebb4789265abaad23829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_249.asset using Guid(fcabf8ed6775ebb4789265abaad23829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e0b85289297ed662f06e1658210fad') in 0.012098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.587515 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_252.asset
+  artifactKey: Guid(a937e8b0e19678049a5acb25ae91f665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_252.asset using Guid(a937e8b0e19678049a5acb25ae91f665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6433f7e23925a790bfd4a42a7573d9c4') in 0.016332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_257.asset
+  artifactKey: Guid(c6b83b0fcad504743ad2cfa6a89030dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_257.asset using Guid(c6b83b0fcad504743ad2cfa6a89030dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6119d1c400d06ea76334153e8fe7f1e5') in 0.015720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.750890 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_261.asset
+  artifactKey: Guid(a51e42314ee623144a1a99ebbbc0727a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_261.asset using Guid(a51e42314ee623144a1a99ebbbc0727a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78406c85613e0fef76b77f72e7a66614') in 0.028712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_264.asset
+  artifactKey: Guid(5a58a0c23493fad418b06904870dec84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_264.asset using Guid(5a58a0c23493fad418b06904870dec84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68daf13a16a372d5342d7e43a881adbf') in 0.012854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.348835 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_270.asset
+  artifactKey: Guid(33fcdd9e92469914dbecb4b36c28c1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_270.asset using Guid(33fcdd9e92469914dbecb4b36c28c1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed971daeb9ecfeebac699005700a6858') in 0.016430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_272.asset
+  artifactKey: Guid(ee20594838288474eb4a5e5bf3b51c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_272.asset using Guid(ee20594838288474eb4a5e5bf3b51c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbde51a448d17a327b8dbe9191397284') in 0.024844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.560060 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_279.asset
+  artifactKey: Guid(5e2b0d62abe38ec48bbfcc3493decfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_279.asset using Guid(5e2b0d62abe38ec48bbfcc3493decfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2117855b7c85825dacef8d2e137933ed') in 0.014450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_285.asset
+  artifactKey: Guid(38e43a51a90fd5b4d9ce8c245c8fde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_285.asset using Guid(38e43a51a90fd5b4d9ce8c245c8fde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9003aa2fc3efdd5dd81631efa86f04c2') in 0.021393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.413369 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_288.asset
+  artifactKey: Guid(ccb7efbdec8b78d4db4af92dada82edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_288.asset using Guid(ccb7efbdec8b78d4db4af92dada82edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c80822316054858a069fc1ea053ce6') in 0.015784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_291.asset
+  artifactKey: Guid(054307d114dc68b49a8c8900812c4760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_291.asset using Guid(054307d114dc68b49a8c8900812c4760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fe20f63f9920e6e0fb1f6ec3609017') in 0.014431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.742806 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_297.asset
+  artifactKey: Guid(422014f460e33ca4392ebf00a0f41184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_297.asset using Guid(422014f460e33ca4392ebf00a0f41184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2503f50e494a187dd2e272796d6a77') in 0.017338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_303.asset
+  artifactKey: Guid(6f712dd5378815749a635a2fc7d73c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_303.asset using Guid(6f712dd5378815749a635a2fc7d73c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5325da57962fabea6703f7b3af6dba1d') in 0.011025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_299.asset
+  artifactKey: Guid(f1fffc7a9adcd6b4ab2207b6a2c7c410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_299.asset using Guid(f1fffc7a9adcd6b4ab2207b6a2c7c410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263c5fa85bd68e56ea6925d429c81d19') in 0.009247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.302868 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_306.asset
+  artifactKey: Guid(911e980895a15204fb30783f7375ae2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_306.asset using Guid(911e980895a15204fb30783f7375ae2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5e877eb8ea3288685bffdc4f466c0e') in 0.016412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_312.asset
+  artifactKey: Guid(e3476cbd47ee0634593c4857460718a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_312.asset using Guid(e3476cbd47ee0634593c4857460718a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21d1ce101dc70208f6f299ac7cf3bb1') in 0.015850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377227 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_315.asset
+  artifactKey: Guid(9fec3ef8741dd4b4199d03edca264630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_315.asset using Guid(9fec3ef8741dd4b4199d03edca264630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67390d0eb81f4aa099656954ecff3130') in 0.014974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_318.asset
+  artifactKey: Guid(3da5bba79970dbd43a03774a8ddc6e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_318.asset using Guid(3da5bba79970dbd43a03774a8ddc6e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d0d63cce945fbd72416579ae622299') in 0.015339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_321.asset
+  artifactKey: Guid(4f83f15502405464786a8faa33e96fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_321.asset using Guid(4f83f15502405464786a8faa33e96fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810ab31b7e53940e2eb138eed79a3853') in 0.011347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.160043 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_324.asset
+  artifactKey: Guid(4e970f91419b17b4aa2d3a189a6b809e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_324.asset using Guid(4e970f91419b17b4aa2d3a189a6b809e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42537af2b837afad90c5c51a6014d622') in 0.015636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_329.asset
+  artifactKey: Guid(815e4e04c4ea6cd46bfbb54f7223dc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_329.asset using Guid(815e4e04c4ea6cd46bfbb54f7223dc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f297b8c48ae03df742e0f660cede021') in 0.023020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.536386 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_333.asset
+  artifactKey: Guid(01fbfcd369201b346956456cd78d585e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_333.asset using Guid(01fbfcd369201b346956456cd78d585e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728046e5af174c23c971bc213be939fc') in 0.016391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_336.asset
+  artifactKey: Guid(a87536b69651fae4bb4b778f64a090a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_336.asset using Guid(a87536b69651fae4bb4b778f64a090a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7b1c4b6c7cfddfb2dfed0303f818cd') in 0.017512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.305053 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_342.asset
+  artifactKey: Guid(b7fcee8f925daa04982bb5ab8ce4f91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_342.asset using Guid(b7fcee8f925daa04982bb5ab8ce4f91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086128c9348471c8f4ad0803c9466ef2') in 0.019841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_346.asset
+  artifactKey: Guid(b689a0b440c137447ae19c88f04ae106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_346.asset using Guid(b689a0b440c137447ae19c88f04ae106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471a55a4410a6dd6dcd0d6084ce9106e') in 0.012507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164293 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_351.asset
+  artifactKey: Guid(1a89b26ca489adb498362f9a113912e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_351.asset using Guid(1a89b26ca489adb498362f9a113912e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f3dd3bf84c35afa2999f6bf6ee17e6') in 0.019143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_354.asset
+  artifactKey: Guid(69a3dfcd59922b148861d4ff701383b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_354.asset using Guid(69a3dfcd59922b148861d4ff701383b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981dfe2ec15c3c49a6c58c1062ead82c') in 0.015197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447151 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_360.asset
+  artifactKey: Guid(cf22e3362ed83414ab1a2b4dd703afb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_360.asset using Guid(cf22e3362ed83414ab1a2b4dd703afb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9abbafddd771e742efb23fc912b3abe') in 0.020097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_366.asset
+  artifactKey: Guid(4478f4b60d699ac488b3ec699c7d698d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_366.asset using Guid(4478f4b60d699ac488b3ec699c7d698d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa52e7d8233711857c71a59747fb5d26') in 0.042315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.203797 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_369.asset
+  artifactKey: Guid(a7c2f473617c9cc47822ff6b7fca1fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_369.asset using Guid(a7c2f473617c9cc47822ff6b7fca1fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97c5b9899a698c5b8c21ebb474261a0') in 0.025456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_373.asset
+  artifactKey: Guid(217e5b77b3d5fe94b80adafce1369af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_373.asset using Guid(217e5b77b3d5fe94b80adafce1369af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdb4f9c5467bbe418e4a2e946a9db7f') in 0.016924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116490 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_378.asset
+  artifactKey: Guid(7b75a06a96939514187949c7704084f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_378.asset using Guid(7b75a06a96939514187949c7704084f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6720c02f171f7f58790dbaf74a85b9ee') in 0.013256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_381.asset
+  artifactKey: Guid(d67ffffe0b0a56a4abec9e3408b88bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_381.asset using Guid(d67ffffe0b0a56a4abec9e3408b88bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab479be7180e904487de46f0c37acba') in 0.034098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164996 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_387.asset
+  artifactKey: Guid(7711381649c606d40a90c8247d674747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_387.asset using Guid(7711381649c606d40a90c8247d674747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9b6702774bd58c37e7d15f2a7bf726') in 0.015932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_393.asset
+  artifactKey: Guid(ba911e907f4fc44449f0bd4ddfb73bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_393.asset using Guid(ba911e907f4fc44449f0bd4ddfb73bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2777dce3ec1de1c65d37448c5787a65b') in 0.018720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_390.asset
+  artifactKey: Guid(987cdbd54aaab5c429fdf49b03c87afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_390.asset using Guid(987cdbd54aaab5c429fdf49b03c87afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff5f37518df656392e84902652a5daa') in 0.017076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.469859 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_396.asset
+  artifactKey: Guid(6dfb95841f198b34e949672477e730fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_396.asset using Guid(6dfb95841f198b34e949672477e730fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b077b69de1a222d8d5d719971a3647') in 0.026403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_401.asset
+  artifactKey: Guid(9e1b54b9455a3c54bb68d0f7308fdb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_401.asset using Guid(9e1b54b9455a3c54bb68d0f7308fdb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2724bd33268e89d2215e9a409ba41f03') in 0.022804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.274169 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_405.asset
+  artifactKey: Guid(67c76eab950eeda49ad09d31d83a8a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_405.asset using Guid(67c76eab950eeda49ad09d31d83a8a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcf98e064390a0bb23e93f5e61caf2a') in 0.016159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_409.asset
+  artifactKey: Guid(eaf013e5b8475134bb7653aa69e61bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_409.asset using Guid(eaf013e5b8475134bb7653aa69e61bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cbcbf324acb95bede4ab358e434926') in 0.035138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083691 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_414.asset
+  artifactKey: Guid(2d5429bf1eeeaef4db218c551f7a631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_414.asset using Guid(2d5429bf1eeeaef4db218c551f7a631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ac844d65ab0353794c1f8532b3d442') in 0.015846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_416.asset
+  artifactKey: Guid(84c7aa3081a93934b9e1aac120e06707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_416.asset using Guid(84c7aa3081a93934b9e1aac120e06707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e485f61edd5f3064e3772f2d22f14bb1') in 0.016757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.305042 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_423.asset
+  artifactKey: Guid(351cebe05e96ef348bcf2173d37addaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_423.asset using Guid(351cebe05e96ef348bcf2173d37addaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f737f676e3a5f0b2a84b26ab380a0f') in 0.016140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_426.asset
+  artifactKey: Guid(ad9ad9ecc2bf0164b8b1123edd99e379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_426.asset using Guid(ad9ad9ecc2bf0164b8b1123edd99e379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00151d9b04c0d27b77825a3a491b61ad') in 0.015767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_427.asset
+  artifactKey: Guid(45e78da6c14d6e846a2c2aef7d2fb1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_427.asset using Guid(45e78da6c14d6e846a2c2aef7d2fb1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e7dad11eabf2b984206e40f8a85187') in 0.010767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.185812 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_432.asset
+  artifactKey: Guid(e6edea760a4186e4a89717f4c747650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_432.asset using Guid(e6edea760a4186e4a89717f4c747650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b589c85ea4be6847db66d68733320424') in 0.015287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_435.asset
+  artifactKey: Guid(7673c0787be47e84aa45c99bd8171089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_435.asset using Guid(7673c0787be47e84aa45c99bd8171089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37da3e388b2ebffce9bbf4c9ad6767ca') in 0.027468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.568872 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_441.asset
+  artifactKey: Guid(59b463bcd31c9b44bb59f85a7f74e63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_441.asset using Guid(59b463bcd31c9b44bb59f85a7f74e63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a57eb8dc0470bc8a340ce27c4d0db74') in 0.015531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_446.asset
+  artifactKey: Guid(15d0c6e92c6b69a45bea838c71905bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_446.asset using Guid(15d0c6e92c6b69a45bea838c71905bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77c7a48bb1a712309dd32015962ee07') in 0.015360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146780 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_450.asset
+  artifactKey: Guid(5a217a6e18a94d141b87657417bf067a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_450.asset using Guid(5a217a6e18a94d141b87657417bf067a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bbac33c6fffb0109c7e622aa2bf533') in 0.016405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_454.asset
+  artifactKey: Guid(419adfdaac3c36e4da1a533bf87cae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_454.asset using Guid(419adfdaac3c36e4da1a533bf87cae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c50ae4e5f6e05f7bf3137152af991fe') in 0.013620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_456.asset
+  artifactKey: Guid(f723f0e58c929ec46b21a98db497ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_456.asset using Guid(f723f0e58c929ec46b21a98db497ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b84596b050fadb139b786f604050be') in 0.010643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.341511 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_459.asset
+  artifactKey: Guid(624b7f2c71b072744836efc3f019791e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_459.asset using Guid(624b7f2c71b072744836efc3f019791e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31e045dddb718e311fa002a190ffcc3') in 0.015439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_464.asset
+  artifactKey: Guid(437337698f5a77343b9a649763bc000b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_464.asset using Guid(437337698f5a77343b9a649763bc000b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a00eaba2bfe2ad9a9d04a548943c825') in 0.019367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.429485 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_468.asset
+  artifactKey: Guid(9c213b72029e8414fb038776a5debf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_468.asset using Guid(9c213b72029e8414fb038776a5debf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbeebb8e28c80ec2c4869b0d037cdb3') in 0.016078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_472.asset
+  artifactKey: Guid(2c03c5d7264f4904a86ca6fd36457d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_472.asset using Guid(2c03c5d7264f4904a86ca6fd36457d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9f7ae2d7bbaf923ab3cebf93b2131c') in 0.015380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.189110 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_477.asset
+  artifactKey: Guid(8fee1e41ffcfb59468de1a0b1d2714d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_477.asset using Guid(8fee1e41ffcfb59468de1a0b1d2714d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f29443e6cf6b9ec8c7f9304dbeb27a') in 0.016718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_481.asset
+  artifactKey: Guid(8e63a3752fbad354f93ec7b37ec21bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_481.asset using Guid(8e63a3752fbad354f93ec7b37ec21bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4b8871a78927ed2c10a2b811287249') in 0.014839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_483.asset
+  artifactKey: Guid(ef7e0a9e2c66e1c4fbdea6a7180aeb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_483.asset using Guid(ef7e0a9e2c66e1c4fbdea6a7180aeb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c7e5d940b64a03f96a6409caf5ea33') in 0.009635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.453880 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_486.asset
+  artifactKey: Guid(ce6d1149e571f9c46b5111b05d10fef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_486.asset using Guid(ce6d1149e571f9c46b5111b05d10fef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f580465bebaa47db525b0cb17406f2d8') in 0.015438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_491.asset
+  artifactKey: Guid(659a8ac9ffe41654590e9385028b2e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_491.asset using Guid(659a8ac9ffe41654590e9385028b2e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab998fd7a472f432b3f9b8c9a5ff6f94') in 0.016636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.186383 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_495.asset
+  artifactKey: Guid(d8d3f8a65490b774597d4127792286bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileA5_int_495.asset using Guid(d8d3f8a65490b774597d4127792286bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13df8a465b11040a315ad2fa61605647') in 0.024359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_0.asset
+  artifactKey: Guid(4796be9e811100544b94711151714c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_0.asset using Guid(4796be9e811100544b94711151714c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd89b5146860951421636a0120202ba') in 0.016774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.972464 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_4.asset
+  artifactKey: Guid(4091d089d33969b46902448bdeafb739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_4.asset using Guid(4091d089d33969b46902448bdeafb739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eb9a638c05ea5076a05eb376aed867') in 0.016788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_6.asset
+  artifactKey: Guid(ed1520b4de45bf84c87c4e5ac758d8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_6.asset using Guid(ed1520b4de45bf84c87c4e5ac758d8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512a5898d413ed8a58d5cf879f805f09') in 0.016699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.938840 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_13.asset
+  artifactKey: Guid(4511ca9f3d49a4648abd869fd172bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_13.asset using Guid(4511ca9f3d49a4648abd869fd172bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1278e40d29a35a5ab2d0ef7007fc2911') in 0.013361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_17.asset
+  artifactKey: Guid(be7f112f4ab5c7444a14311b5102ea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_17.asset using Guid(be7f112f4ab5c7444a14311b5102ea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeeec8f0b184b4aec9dd969f1b572fb') in 0.018830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.153371 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_22.asset
+  artifactKey: Guid(e15f45418999de14b8e52bb46ba8db38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_22.asset using Guid(e15f45418999de14b8e52bb46ba8db38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e1391027f9ee3a5048f0e513dedc10') in 0.017494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_27.asset
+  artifactKey: Guid(7da90c888b478a7439965d5b78a16e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_27.asset using Guid(7da90c888b478a7439965d5b78a16e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01e9ef868161134dca773311299ae0d') in 0.015425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.491200 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_31.asset
+  artifactKey: Guid(0e48cf54609014045b8b864e84bb9231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_31.asset using Guid(0e48cf54609014045b8b864e84bb9231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f73876e78dc8c298985c977687bd4f9') in 0.015759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_35.asset
+  artifactKey: Guid(21d082c2fe4bcdc41901f319441b1889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_35.asset using Guid(21d082c2fe4bcdc41901f319441b1889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0feb4a8bdf84755141db399abf3f91') in 0.012436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_33.asset
+  artifactKey: Guid(f7462f235c316e148a843246120a492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_33.asset using Guid(f7462f235c316e148a843246120a492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be520f038a3f27bac6a976acaa0a7c33') in 0.011834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.927061 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_40.asset
+  artifactKey: Guid(bd99198e9200f8d4f9a4c1c079cce1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_40.asset using Guid(bd99198e9200f8d4f9a4c1c079cce1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bae65b186a3b1644b5055ff1332d38') in 0.016557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_43.asset
+  artifactKey: Guid(53f57ad2e7eb8e643bb989ee0e591845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_43.asset using Guid(53f57ad2e7eb8e643bb989ee0e591845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f006bc594e46f7666740d35e46fe12') in 0.016518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.308962 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_49.asset
+  artifactKey: Guid(2d58cf34b04e9bb489aeac0f17c67b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_49.asset using Guid(2d58cf34b04e9bb489aeac0f17c67b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be69cdd0fe85740270d8b0db23b4883') in 0.018813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_52.asset
+  artifactKey: Guid(7d911c4877b1fd54ba896a9285889ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_52.asset using Guid(7d911c4877b1fd54ba896a9285889ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252b9af029aa3413b1dc440afd81cf1f') in 0.016379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.064998 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_58.asset
+  artifactKey: Guid(699166cabe9ce154abd89f16040e620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_58.asset using Guid(699166cabe9ce154abd89f16040e620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ba07f1426518c49f092c01293bb09c') in 0.019379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_63.asset
+  artifactKey: Guid(66f7fcbe5f711ab4db920d2660921bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_63.asset using Guid(66f7fcbe5f711ab4db920d2660921bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48461c4960c0bec73e988c02ffdd3f44') in 0.017740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.283817 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_67.asset
+  artifactKey: Guid(0316cb91d1abf4443953129d08c72d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_67.asset using Guid(0316cb91d1abf4443953129d08c72d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b437b14a11dabf707ded5f3fcfb22d8') in 0.016049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_71.asset
+  artifactKey: Guid(8cea8b449f91a9d46bea983a686542db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_71.asset using Guid(8cea8b449f91a9d46bea983a686542db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2321904dba6895fc33dc50738ceab9') in 0.012699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_73.asset
+  artifactKey: Guid(7187a89759022a9468e5c8327c866909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_73.asset using Guid(7187a89759022a9468e5c8327c866909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fe65319d3043fadee2cf5407df53e5') in 0.010710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.640636 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_76.asset
+  artifactKey: Guid(7151ee9dbd7831f458b11e20579f65dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_76.asset using Guid(7151ee9dbd7831f458b11e20579f65dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4f7dfba0aaeaf7b52924cf11afdb39') in 0.017070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_79.asset
+  artifactKey: Guid(95fefcc9c7a5d04428ba97d4cf791985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_79.asset using Guid(95fefcc9c7a5d04428ba97d4cf791985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238790d23e4fb0fcfc550abb3dfcd861') in 0.016411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.643999 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_85.asset
+  artifactKey: Guid(6ececa98342396d4fa4db836279b099d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_85.asset using Guid(6ececa98342396d4fa4db836279b099d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab19d2c6c7143df7120d7b6a484f4e5') in 0.026589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_91.asset
+  artifactKey: Guid(0d83710f2608d16479ed54aa52e95ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_91.asset using Guid(0d83710f2608d16479ed54aa52e95ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8db01131a3cb1a5d8cf3157d6b68bab') in 0.016784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.810540 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_94.asset
+  artifactKey: Guid(b89c774aa9aeb3148be446178c55c1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_94.asset using Guid(b89c774aa9aeb3148be446178c55c1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8432902e015a8b4cb19c4ec7676625f') in 0.015930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_96.asset
+  artifactKey: Guid(c8c74f997c17acb43aa71f6fe8d56992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_96.asset using Guid(c8c74f997c17acb43aa71f6fe8d56992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e672052c05c36fa6d9add228b09ca854') in 0.015816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_99.asset
+  artifactKey: Guid(6844b1227838a7041b4ae8b900d75184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_99.asset using Guid(6844b1227838a7041b4ae8b900d75184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38dd300347c1948ab14b65084ab969a') in 0.010049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.565463 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_103.asset
+  artifactKey: Guid(7cf0dc42df5702f478ac06419ab9c8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_103.asset using Guid(7cf0dc42df5702f478ac06419ab9c8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db32636851035fd8f01fba8153aeaf10') in 0.019671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_109.asset
+  artifactKey: Guid(6008bb1c32de5dd4db83c3c7b31cbf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_109.asset using Guid(6008bb1c32de5dd4db83c3c7b31cbf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b219607713faa6e1c4eff4c98fb0064') in 0.017666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693670 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_112.asset
+  artifactKey: Guid(5a5144d3ee625984aa88896887198020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_112.asset using Guid(5a5144d3ee625984aa88896887198020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475857f8a854378307df3c6064f7b7ff') in 0.024737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_114.asset
+  artifactKey: Guid(68e20895984d24f42be5bf6d1a1ead8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_114.asset using Guid(68e20895984d24f42be5bf6d1a1ead8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba312e0122b1a6fb2479be480f681f2') in 0.017235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.869261 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_121.asset
+  artifactKey: Guid(737c485377fb1c04d83c243b06c04331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_121.asset using Guid(737c485377fb1c04d83c243b06c04331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717ca3405363e3d833aeb3113932030a') in 0.026391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_124.asset
+  artifactKey: Guid(207350bfa11ff4949a12ca419891a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_124.asset using Guid(207350bfa11ff4949a12ca419891a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a125a5041d1d66c213e5a52d20da3b1') in 0.015728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.140819 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_130.asset
+  artifactKey: Guid(353883f0dd9dc0b4aa126bd5fdc8bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_130.asset using Guid(353883f0dd9dc0b4aa126bd5fdc8bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dfdf43f9940121d39d897059a22f5a') in 0.016473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_134.asset
+  artifactKey: Guid(6be7c70aae772654eb7ed8102cbefbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_134.asset using Guid(6be7c70aae772654eb7ed8102cbefbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311f7d4111b1152932fdb02410346798') in 0.016413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.277319 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_139.asset
+  artifactKey: Guid(3cc6d886fdeabcd4cad63d10727e83be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_139.asset using Guid(3cc6d886fdeabcd4cad63d10727e83be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0660f5b949d1532214640110ef67f1fc') in 0.028610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_143.asset
+  artifactKey: Guid(16a5b4a8c236af644a15f2ad59a1d3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_143.asset using Guid(16a5b4a8c236af644a15f2ad59a1d3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff76b21ea4f3a3e6f1cda751416538c') in 0.016536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.443618 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_148.asset
+  artifactKey: Guid(e0c506946c80a2f44a72ac450a7e24a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_148.asset using Guid(e0c506946c80a2f44a72ac450a7e24a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca8f14dff35cc70189e1c0971e47e4b') in 0.012646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_152.asset
+  artifactKey: Guid(1d242b6df354c7042a3e303c207120ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_152.asset using Guid(1d242b6df354c7042a3e303c207120ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595d5c649d54908876e72a425169c6ac') in 0.018284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261480 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_157.asset
+  artifactKey: Guid(f99dc1d04e15f0146bb76e82bd3d3202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_157.asset using Guid(f99dc1d04e15f0146bb76e82bd3d3202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ce3c4bd21858f60955f898d8b41ef1') in 0.015658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_162.asset
+  artifactKey: Guid(5c959e0a7138bc840ad9f1de0d8aef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_162.asset using Guid(5c959e0a7138bc840ad9f1de0d8aef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6589689f4eb20f86f097aa58b90d279') in 0.015098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_161.asset
+  artifactKey: Guid(911bb0ee871903e449b536b1fc5f4878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_161.asset using Guid(911bb0ee871903e449b536b1fc5f4878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ef143ea53cfd2cdd253069d8bb83fc') in 0.011282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.213582 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_166.asset
+  artifactKey: Guid(2c300f1de1fbeb2479622a46a79d5bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_166.asset using Guid(2c300f1de1fbeb2479622a46a79d5bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6cc165709f84799dbe1b1b06c48567') in 0.016136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_170.asset
+  artifactKey: Guid(2eed2e813eb09d64fb95b6e239ca7ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_170.asset using Guid(2eed2e813eb09d64fb95b6e239ca7ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65ce0126d72e9c11055cbf3f4245662') in 0.021862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451095 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_175.asset
+  artifactKey: Guid(ee13b30b27db1274fba227327192966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_175.asset using Guid(ee13b30b27db1274fba227327192966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe52b7a6797933c61160de4223306c4') in 0.016116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_178.asset
+  artifactKey: Guid(22c95f0b4bbe3ed4baea19775fbbe538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_178.asset using Guid(22c95f0b4bbe3ed4baea19775fbbe538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46da3a99c3d2241b5fddd695d8f3536') in 0.014377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_177.asset
+  artifactKey: Guid(9cf2f018f81212940b59f9299253e7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_177.asset using Guid(9cf2f018f81212940b59f9299253e7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763ad7fa8a13d2feb7c4b6429b0ccea4') in 0.010797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088221 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_184.asset
+  artifactKey: Guid(a3f205a556fada940bab5d5490718be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_184.asset using Guid(a3f205a556fada940bab5d5490718be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502fd0b66f1e25ffc36d7a49b1614890') in 0.017112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_188.asset
+  artifactKey: Guid(94255d0e315ba62409cd97391993437d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_188.asset using Guid(94255d0e315ba62409cd97391993437d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8a14616566a6d8c9a1915eba95d6fe') in 0.017619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.128681 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_193.asset
+  artifactKey: Guid(2387be5586b037441ac9f9b6bae43ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_193.asset using Guid(2387be5586b037441ac9f9b6bae43ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fb4248f50aa48e80d490f289294eab') in 0.018636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_198.asset
+  artifactKey: Guid(6e5ed96789f7e8c498e660e12413f66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_198.asset using Guid(6e5ed96789f7e8c498e660e12413f66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9d98c0c7d54a446fefd4f207097091') in 0.016256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.492688 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_202.asset
+  artifactKey: Guid(ce0949ecb3d841c40bf98fc84c49e4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_202.asset using Guid(ce0949ecb3d841c40bf98fc84c49e4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61ca5c1d5771e92d2cbcd075aed4642') in 0.017899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_208.asset
+  artifactKey: Guid(f12944252a1ce184aaf5d02a2da278c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_208.asset using Guid(f12944252a1ce184aaf5d02a2da278c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7815abaaaa15a63ae623b7a125a95d7a') in 0.031394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.107920 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_211.asset
+  artifactKey: Guid(92f7f493d7f1f474f9c31624a841eef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_211.asset using Guid(92f7f493d7f1f474f9c31624a841eef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa416cfd5a9290fc816a1fa9f388628e') in 0.014122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_213.asset
+  artifactKey: Guid(0795f565fbba4064cbf468113ac49f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_213.asset using Guid(0795f565fbba4064cbf468113ac49f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd529f7fc8207cbd57433fbf62f8662') in 0.016788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.151084 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_220.asset
+  artifactKey: Guid(ff01839b8d98ed540a89ec8bd4ce0a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_220.asset using Guid(ff01839b8d98ed540a89ec8bd4ce0a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed542fe18bafc7732bbb67e8315fa12') in 0.012953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_225.asset
+  artifactKey: Guid(f7fa453f63b66724aa0d18106ce6af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_225.asset using Guid(f7fa453f63b66724aa0d18106ce6af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dba728a72bcc9c046bc5bebd0bf8bc') in 0.019146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.597320 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_229.asset
+  artifactKey: Guid(1fed0644c6828c047b19181778e301e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_229.asset using Guid(1fed0644c6828c047b19181778e301e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f5e32fbb007ab7ea8b112b208dd158') in 0.016295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_235.asset
+  artifactKey: Guid(cf99ac50fa026074489fac6154a7c505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_235.asset using Guid(cf99ac50fa026074489fac6154a7c505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e5a5055324e6e498fb7e78e6d67708') in 0.016996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.117917 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_238.asset
+  artifactKey: Guid(f2b8487bdf11d19458090b91ae025cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_238.asset using Guid(f2b8487bdf11d19458090b91ae025cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ffd76178a05de4ff670adeaac310c3') in 0.014920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_240.asset
+  artifactKey: Guid(2ccc216e3b9875048805cd66b37f16f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_240.asset using Guid(2ccc216e3b9875048805cd66b37f16f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7388c069aa64e1aaefb989d27c4fdd7f') in 0.016522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.199209 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_247.asset
+  artifactKey: Guid(6de9feae6ac45424997628a9b521c113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_247.asset using Guid(6de9feae6ac45424997628a9b521c113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68b0e4b77f6442ef6ff262659418446') in 0.017736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_253.asset
+  artifactKey: Guid(c8515c4c2e9be1a499d09cb697b934e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_253.asset using Guid(c8515c4c2e9be1a499d09cb697b934e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd67662a73c5a0ffe831137a012fb48') in 0.012520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_250.asset
+  artifactKey: Guid(3c5b16d65c1fc6347951267d9c390b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_250.asset using Guid(3c5b16d65c1fc6347951267d9c390b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac574cf4fd7eb24c68fee05aaee095cd') in 0.019474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.423750 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_256.asset
+  artifactKey: Guid(dba05dd514b568c49bccc31d02f75156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_256.asset using Guid(dba05dd514b568c49bccc31d02f75156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0878cac3e7b2bf85f9f5e73ae250f5') in 0.025257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_260.asset
+  artifactKey: Guid(46213e401bee0de408e6573560514502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_260.asset using Guid(46213e401bee0de408e6573560514502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac833c1382a2831aeb078152cff42f05') in 0.019209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.170238 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_265.asset
+  artifactKey: Guid(0b7e7c14bd27f4d47ab1b658546bde47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_265.asset using Guid(0b7e7c14bd27f4d47ab1b658546bde47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52344988d5b100126a220ec161816c6c') in 0.016857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_270.asset
+  artifactKey: Guid(5264cc82a551d0a4ebca55738580808b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_270.asset using Guid(5264cc82a551d0a4ebca55738580808b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83333512b4a426380ba22254dd406294') in 0.014953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_267.asset
+  artifactKey: Guid(728f4796fdb1cdb4a84751692f0b7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_267.asset using Guid(728f4796fdb1cdb4a84751692f0b7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fef5e98c3fcead0ec9cb5a540f470c0') in 0.013126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.159140 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_274.asset
+  artifactKey: Guid(b58070ac0181fc24b93d034636a922b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_274.asset using Guid(b58070ac0181fc24b93d034636a922b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65552f36aa77446a6328b14596ae7552') in 0.015319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_277.asset
+  artifactKey: Guid(28da20e59fdb61c41bf0f7e2a2377b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_277.asset using Guid(28da20e59fdb61c41bf0f7e2a2377b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda16bfbbb984787170fe72eb919d440') in 0.019102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_276.asset
+  artifactKey: Guid(15bbc3fcee00c3845be605967b404de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_276.asset using Guid(15bbc3fcee00c3845be605967b404de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a995a82dd22bb54a7ee5615ad1159f5a') in 0.010149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.465005 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_283.asset
+  artifactKey: Guid(ef47c65ec791bc042b9afddb24b30f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_283.asset using Guid(ef47c65ec791bc042b9afddb24b30f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b77687bc3ae0058d73dca2a21d7fceb') in 0.017002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_289.asset
+  artifactKey: Guid(ce6d766519e480040bfbd23c1166bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_289.asset using Guid(ce6d766519e480040bfbd23c1166bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e9eba9e585424761d1c9c32fb8e843') in 0.016485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188046 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_292.asset
+  artifactKey: Guid(c095be06df405674e9096b623784e57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_292.asset using Guid(c095be06df405674e9096b623784e57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9861e244a04d1db613e8db80b43ecd0c') in 0.019692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_294.asset
+  artifactKey: Guid(a65f4f1ca82ca034fbf379c3afb1bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_294.asset using Guid(a65f4f1ca82ca034fbf379c3afb1bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e252beecce63105b38ebb0c5dd0d50') in 0.017603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173936 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_301.asset
+  artifactKey: Guid(fef7ca8af1e7fd8438ed65ad60a44729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_301.asset using Guid(fef7ca8af1e7fd8438ed65ad60a44729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066b57a1ba26baaf39d0ef336d174af5') in 0.017419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_306.asset
+  artifactKey: Guid(b4d66f2b5ced52642a61668e5e62f76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_306.asset using Guid(b4d66f2b5ced52642a61668e5e62f76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37612fc277c64f57dacb63de29b52ccf') in 0.019605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.158826 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_310.asset
+  artifactKey: Guid(8a97d6c14a9e9a046912e2af2445a65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_310.asset using Guid(8a97d6c14a9e9a046912e2af2445a65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71907031fc310819e6d9f958a3194f0') in 0.021292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_316.asset
+  artifactKey: Guid(b109a3a51dca3004783140db811a1a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_316.asset using Guid(b109a3a51dca3004783140db811a1a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e99450344e3d95345f618b5e8b07b8') in 0.018083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.505224 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_319.asset
+  artifactKey: Guid(2c672b3272910a141833b8c734f08c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_319.asset using Guid(2c672b3272910a141833b8c734f08c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36f9364e9c8696e8892cae822e85aa6') in 0.029566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_322.asset
+  artifactKey: Guid(0d2cbdc25c8ac2e4badf9eccf6fc1aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_322.asset using Guid(0d2cbdc25c8ac2e4badf9eccf6fc1aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14470f674f81bf8dd4f91e5d7f798ebf') in 0.019628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.198594 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_328.asset
+  artifactKey: Guid(b59c06d9f9b68074393e597c1076e438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_328.asset using Guid(b59c06d9f9b68074393e597c1076e438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807a0aa46d56d613d7a040dd2ec774e2') in 0.032117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_331.asset
+  artifactKey: Guid(72d6824940b8f3c4f875eee6b25f0ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_331.asset using Guid(72d6824940b8f3c4f875eee6b25f0ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6b6eaa1c2b405bb9a5d5cfbe5c0dcc') in 0.013591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.516077 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_337.asset
+  artifactKey: Guid(d3d3c9f0133bb844bac568044e78303f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_337.asset using Guid(d3d3c9f0133bb844bac568044e78303f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4112d88f32e20f359a89736b624f7ecb') in 0.016249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_343.asset
+  artifactKey: Guid(bb4f1ba8013a1ef4eb64c5fbf68a9350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_343.asset using Guid(bb4f1ba8013a1ef4eb64c5fbf68a9350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70303751cd16291a8425ba60e65d5dfc') in 0.015858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_341.asset
+  artifactKey: Guid(539cfda65bd15cf41826b99cf766950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_341.asset using Guid(539cfda65bd15cf41826b99cf766950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59915e4899815fc2791257cfbde7e5dc') in 0.011612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084635 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_346.asset
+  artifactKey: Guid(5388fd8a68bf86141acc8dd030a0a957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_346.asset using Guid(5388fd8a68bf86141acc8dd030a0a957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d49aed0618b25c6956fa81b62092db2') in 0.019176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_350.asset
+  artifactKey: Guid(69d62a0e52d10e344bf5c6c3314248c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_350.asset using Guid(69d62a0e52d10e344bf5c6c3314248c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3280592d8413c945d4516616ae5a33') in 0.015615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.488312 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_355.asset
+  artifactKey: Guid(9eab8cf1e1d01be4fb786986c3a8f955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_355.asset using Guid(9eab8cf1e1d01be4fb786986c3a8f955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995fd0d2094489d2bac74ec0155d8909') in 0.016782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_361.asset
+  artifactKey: Guid(0bb84e40575ee9c40bf37522f8f4bdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_361.asset using Guid(0bb84e40575ee9c40bf37522f8f4bdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64533f0cc4ed0d99c30229502aecbeb7') in 0.018089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116416 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_364.asset
+  artifactKey: Guid(c128e38f050521d4096bebc39e8ad217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_364.asset using Guid(c128e38f050521d4096bebc39e8ad217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9483a11440580e867fc0af77c45c56c') in 0.017689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_370.asset
+  artifactKey: Guid(c63207fbda8e49f4abb27542281861d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_370.asset using Guid(c63207fbda8e49f4abb27542281861d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd1628dc811d0d3c21b4532ecfea272') in 0.019583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.186198 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_373.asset
+  artifactKey: Guid(801730e5736ffa84692e204a162f7e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_373.asset using Guid(801730e5736ffa84692e204a162f7e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a2327b84cc95170735f6248c03148f') in 0.018343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_375.asset
+  artifactKey: Guid(3e63533376a5bc644b3fb0fda2108953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_375.asset using Guid(3e63533376a5bc644b3fb0fda2108953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc8344f26db39cde0898463d9829df1') in 0.019396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.426798 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_382.asset
+  artifactKey: Guid(821bd3f8e91019241ad51e75c5838682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_382.asset using Guid(821bd3f8e91019241ad51e75c5838682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00ee7d87e3ce50b40571e097de62a4e') in 0.017906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_387.asset
+  artifactKey: Guid(7c4b1615c9ec65f4683bdb5e49f4fae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_387.asset using Guid(7c4b1615c9ec65f4683bdb5e49f4fae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70f7ab244845dea97fe91905e092d6e') in 0.015097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.283905 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_391.asset
+  artifactKey: Guid(43cd8806e7fd46e4699a93be5ef84c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_391.asset using Guid(43cd8806e7fd46e4699a93be5ef84c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfec84cbe4bee624569d03191b49ea3') in 0.029846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_397.asset
+  artifactKey: Guid(898440ea8e357654c943b3bb76b6eb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_397.asset using Guid(898440ea8e357654c943b3bb76b6eb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1ed931b0f5021d5367d8908c64cb62') in 0.023354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.635803 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_400.asset
+  artifactKey: Guid(89a7942aa06f07940b8a7806fa482980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_400.asset using Guid(89a7942aa06f07940b8a7806fa482980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1b28d4b6deefccce67cb1734ee3a03') in 0.014312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_403.asset
+  artifactKey: Guid(6ad181b63bd83914e897b1d7355fc980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Pallete/Tilemap/tfsteampunk_tileB_city1_403.asset using Guid(6ad181b63bd83914e897b1d7355fc980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d08914acd14cc8dc2d9aedf8364851') in 0.015209 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
