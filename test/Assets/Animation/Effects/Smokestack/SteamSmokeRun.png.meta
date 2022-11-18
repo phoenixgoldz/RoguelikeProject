@@ -1,0 +1,424 @@
+fileFormatVersion: 2
+guid: 8dd885ae67c57d048b474e27f115f8f4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SteamSmokeRun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      physicsShape:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815b84a0f1a028848a58e918136037d2
+      internalID: -400632314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamSmokeRun_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      physicsShape:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2a348eaefa87448b099d552c0f0f77
+      internalID: 1258132438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamSmokeRun_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      physicsShape:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9b6fa31d5425946a9fce9fa5f76a64
+      internalID: 217198054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamSmokeRun_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      physicsShape:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef6772d016123f41b469b2bd7d2f29c
+      internalID: -534571729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamSmokeRun_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      physicsShape:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7c4047963102048b36d3e049179b4b
+      internalID: 1113235429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamSmokeRun_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      physicsShape:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60aa44670d6a46c4ea01f4931f288b39
+      internalID: -1419167623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamSmokeRun_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      physicsShape:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7472d6c992c725d48b3bc1545e7c1d95
+      internalID: -1150021265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamSmokeRun_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      physicsShape:
+      - - {x: 0, y: -44}
+        - {x: 25, y: 0}
+        - {x: 0, y: 44}
+        - {x: -25, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc356ebe9c3b2b459f0ae73bd26f87c
+      internalID: 1247260404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SteamSmokeRun_1: 1258132438
+      SteamSmokeRun_0: -400632314
+      SteamSmokeRun_6: -1150021265
+      SteamSmokeRun_2: 217198054
+      SteamSmokeRun_5: -1419167623
+      SteamSmokeRun_7: 1247260404
+      SteamSmokeRun_3: -534571729
+      SteamSmokeRun_4: 1113235429
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
